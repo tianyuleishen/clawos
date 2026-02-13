@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "hle_0",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 1 (mathematics)",
+    "subject": "mathematics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_1",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 2 (physics)",
+    "subject": "physics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_2",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 3 (chemistry)",
+    "subject": "chemistry",
+    "answer": "A"
+  },
+  {
+    "id": "hle_3",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 4 (biology)",
+    "subject": "biology",
+    "answer": "A"
+  },
+  {
+    "id": "hle_4",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 5 (philosophy)",
+    "subject": "philosophy",
+    "answer": "A"
+  },
+  {
+    "id": "hle_5",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 6 (economics)",
+    "subject": "economics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_6",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 7 (law)",
+    "subject": "law",
+    "answer": "A"
+  },
+  {
+    "id": "hle_7",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 8 (geography)",
+    "subject": "geography",
+    "answer": "A"
+  },
+  {
+    "id": "hle_8",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 9 (literature)",
+    "subject": "literature",
+    "answer": "A"
+  },
+  {
+    "id": "hle_9",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 10 (history)",
+    "subject": "history",
+    "answer": "A"
+  },
+  {
+    "id": "hle_10",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 11 (medicine)",
+    "subject": "medicine",
+    "answer": "A"
+  },
+  {
+    "id": "hle_11",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 12 (mathematics)",
+    "subject": "mathematics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_12",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 13 (physics)",
+    "subject": "physics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_13",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 14 (chemistry)",
+    "subject": "chemistry",
+    "answer": "A"
+  },
+  {
+    "id": "hle_14",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 15 (biology)",
+    "subject": "biology",
+    "answer": "A"
+  },
+  {
+    "id": "hle_15",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 16 (philosophy)",
+    "subject": "philosophy",
+    "answer": "A"
+  },
+  {
+    "id": "hle_16",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 17 (economics)",
+    "subject": "economics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_17",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 18 (law)",
+    "subject": "law",
+    "answer": "A"
+  },
+  {
+    "id": "hle_18",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 19 (geography)",
+    "subject": "geography",
+    "answer": "A"
+  },
+  {
+    "id": "hle_19",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 20 (literature)",
+    "subject": "literature",
+    "answer": "A"
+  },
+  {
+    "id": "hle_20",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 21 (history)",
+    "subject": "history",
+    "answer": "A"
+  },
+  {
+    "id": "hle_21",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 22 (medicine)",
+    "subject": "medicine",
+    "answer": "A"
+  },
+  {
+    "id": "hle_22",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 23 (mathematics)",
+    "subject": "mathematics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_23",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 24 (physics)",
+    "subject": "physics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_24",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 25 (chemistry)",
+    "subject": "chemistry",
+    "answer": "A"
+  },
+  {
+    "id": "hle_25",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 26 (biology)",
+    "subject": "biology",
+    "answer": "A"
+  },
+  {
+    "id": "hle_26",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 27 (philosophy)",
+    "subject": "philosophy",
+    "answer": "A"
+  },
+  {
+    "id": "hle_27",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 28 (economics)",
+    "subject": "economics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_28",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 29 (law)",
+    "subject": "law",
+    "answer": "A"
+  },
+  {
+    "id": "hle_29",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 30 (geography)",
+    "subject": "geography",
+    "answer": "A"
+  },
+  {
+    "id": "hle_30",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 31 (literature)",
+    "subject": "literature",
+    "answer": "A"
+  },
+  {
+    "id": "hle_31",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 32 (history)",
+    "subject": "history",
+    "answer": "A"
+  },
+  {
+    "id": "hle_32",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 33 (medicine)",
+    "subject": "medicine",
+    "answer": "A"
+  },
+  {
+    "id": "hle_33",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 34 (mathematics)",
+    "subject": "mathematics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_34",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 35 (physics)",
+    "subject": "physics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_35",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 36 (chemistry)",
+    "subject": "chemistry",
+    "answer": "A"
+  },
+  {
+    "id": "hle_36",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 37 (biology)",
+    "subject": "biology",
+    "answer": "A"
+  },
+  {
+    "id": "hle_37",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 38 (philosophy)",
+    "subject": "philosophy",
+    "answer": "A"
+  },
+  {
+    "id": "hle_38",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 39 (economics)",
+    "subject": "economics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_39",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 40 (law)",
+    "subject": "law",
+    "answer": "A"
+  },
+  {
+    "id": "hle_40",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 41 (geography)",
+    "subject": "geography",
+    "answer": "A"
+  },
+  {
+    "id": "hle_41",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 42 (literature)",
+    "subject": "literature",
+    "answer": "A"
+  },
+  {
+    "id": "hle_42",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 43 (history)",
+    "subject": "history",
+    "answer": "A"
+  },
+  {
+    "id": "hle_43",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 44 (medicine)",
+    "subject": "medicine",
+    "answer": "A"
+  },
+  {
+    "id": "hle_44",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 45 (mathematics)",
+    "subject": "mathematics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_45",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 46 (physics)",
+    "subject": "physics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_46",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 47 (chemistry)",
+    "subject": "chemistry",
+    "answer": "A"
+  },
+  {
+    "id": "hle_47",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 48 (biology)",
+    "subject": "biology",
+    "answer": "A"
+  },
+  {
+    "id": "hle_48",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 49 (philosophy)",
+    "subject": "philosophy",
+    "answer": "A"
+  },
+  {
+    "id": "hle_49",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 50 (economics)",
+    "subject": "economics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_50",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 51 (law)",
+    "subject": "law",
+    "answer": "A"
+  },
+  {
+    "id": "hle_51",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 52 (geography)",
+    "subject": "geography",
+    "answer": "A"
+  },
+  {
+    "id": "hle_52",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 53 (literature)",
+    "subject": "literature",
+    "answer": "A"
+  },
+  {
+    "id": "hle_53",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 54 (history)",
+    "subject": "history",
+    "answer": "A"
+  },
+  {
+    "id": "hle_54",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 55 (medicine)",
+    "subject": "medicine",
+    "answer": "A"
+  },
+  {
+    "id": "hle_55",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 56 (mathematics)",
+    "subject": "mathematics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_56",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 57 (physics)",
+    "subject": "physics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_57",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 58 (chemistry)",
+    "subject": "chemistry",
+    "answer": "A"
+  },
+  {
+    "id": "hle_58",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 59 (biology)",
+    "subject": "biology",
+    "answer": "A"
+  },
+  {
+    "id": "hle_59",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 60 (philosophy)",
+    "subject": "philosophy",
+    "answer": "A"
+  },
+  {
+    "id": "hle_60",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 61 (economics)",
+    "subject": "economics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_61",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 62 (law)",
+    "subject": "law",
+    "answer": "A"
+  },
+  {
+    "id": "hle_62",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 63 (geography)",
+    "subject": "geography",
+    "answer": "A"
+  },
+  {
+    "id": "hle_63",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 64 (literature)",
+    "subject": "literature",
+    "answer": "A"
+  },
+  {
+    "id": "hle_64",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 65 (history)",
+    "subject": "history",
+    "answer": "A"
+  },
+  {
+    "id": "hle_65",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 66 (medicine)",
+    "subject": "medicine",
+    "answer": "A"
+  },
+  {
+    "id": "hle_66",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 67 (mathematics)",
+    "subject": "mathematics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_67",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 68 (physics)",
+    "subject": "physics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_68",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 69 (chemistry)",
+    "subject": "chemistry",
+    "answer": "A"
+  },
+  {
+    "id": "hle_69",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 70 (biology)",
+    "subject": "biology",
+    "answer": "A"
+  },
+  {
+    "id": "hle_70",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 71 (philosophy)",
+    "subject": "philosophy",
+    "answer": "A"
+  },
+  {
+    "id": "hle_71",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 72 (economics)",
+    "subject": "economics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_72",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 73 (law)",
+    "subject": "law",
+    "answer": "A"
+  },
+  {
+    "id": "hle_73",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 74 (geography)",
+    "subject": "geography",
+    "answer": "A"
+  },
+  {
+    "id": "hle_74",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 75 (literature)",
+    "subject": "literature",
+    "answer": "A"
+  },
+  {
+    "id": "hle_75",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 76 (history)",
+    "subject": "history",
+    "answer": "A"
+  },
+  {
+    "id": "hle_76",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 77 (medicine)",
+    "subject": "medicine",
+    "answer": "A"
+  },
+  {
+    "id": "hle_77",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 78 (mathematics)",
+    "subject": "mathematics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_78",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 79 (physics)",
+    "subject": "physics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_79",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 80 (chemistry)",
+    "subject": "chemistry",
+    "answer": "A"
+  },
+  {
+    "id": "hle_80",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 81 (biology)",
+    "subject": "biology",
+    "answer": "A"
+  },
+  {
+    "id": "hle_81",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 82 (philosophy)",
+    "subject": "philosophy",
+    "answer": "A"
+  },
+  {
+    "id": "hle_82",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 83 (economics)",
+    "subject": "economics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_83",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 84 (law)",
+    "subject": "law",
+    "answer": "A"
+  },
+  {
+    "id": "hle_84",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 85 (geography)",
+    "subject": "geography",
+    "answer": "A"
+  },
+  {
+    "id": "hle_85",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 86 (literature)",
+    "subject": "literature",
+    "answer": "A"
+  },
+  {
+    "id": "hle_86",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 87 (history)",
+    "subject": "history",
+    "answer": "A"
+  },
+  {
+    "id": "hle_87",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 88 (medicine)",
+    "subject": "medicine",
+    "answer": "A"
+  },
+  {
+    "id": "hle_88",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 89 (mathematics)",
+    "subject": "mathematics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_89",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 90 (physics)",
+    "subject": "physics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_90",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 91 (chemistry)",
+    "subject": "chemistry",
+    "answer": "A"
+  },
+  {
+    "id": "hle_91",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 92 (biology)",
+    "subject": "biology",
+    "answer": "A"
+  },
+  {
+    "id": "hle_92",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 93 (philosophy)",
+    "subject": "philosophy",
+    "answer": "A"
+  },
+  {
+    "id": "hle_93",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 94 (economics)",
+    "subject": "economics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_94",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 95 (law)",
+    "subject": "law",
+    "answer": "A"
+  },
+  {
+    "id": "hle_95",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 96 (geography)",
+    "subject": "geography",
+    "answer": "A"
+  },
+  {
+    "id": "hle_96",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 97 (literature)",
+    "subject": "literature",
+    "answer": "A"
+  },
+  {
+    "id": "hle_97",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 98 (history)",
+    "subject": "history",
+    "answer": "A"
+  },
+  {
+    "id": "hle_98",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 99 (medicine)",
+    "subject": "medicine",
+    "answer": "A"
+  },
+  {
+    "id": "hle_99",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 100 (mathematics)",
+    "subject": "mathematics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_100",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 101 (physics)",
+    "subject": "physics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_101",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 102 (chemistry)",
+    "subject": "chemistry",
+    "answer": "A"
+  },
+  {
+    "id": "hle_102",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 103 (biology)",
+    "subject": "biology",
+    "answer": "A"
+  },
+  {
+    "id": "hle_103",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 104 (philosophy)",
+    "subject": "philosophy",
+    "answer": "A"
+  },
+  {
+    "id": "hle_104",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 105 (economics)",
+    "subject": "economics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_105",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 106 (law)",
+    "subject": "law",
+    "answer": "A"
+  },
+  {
+    "id": "hle_106",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 107 (geography)",
+    "subject": "geography",
+    "answer": "A"
+  },
+  {
+    "id": "hle_107",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 108 (literature)",
+    "subject": "literature",
+    "answer": "A"
+  },
+  {
+    "id": "hle_108",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 109 (history)",
+    "subject": "history",
+    "answer": "A"
+  },
+  {
+    "id": "hle_109",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 110 (medicine)",
+    "subject": "medicine",
+    "answer": "A"
+  },
+  {
+    "id": "hle_110",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 111 (mathematics)",
+    "subject": "mathematics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_111",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 112 (physics)",
+    "subject": "physics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_112",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 113 (chemistry)",
+    "subject": "chemistry",
+    "answer": "A"
+  },
+  {
+    "id": "hle_113",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 114 (biology)",
+    "subject": "biology",
+    "answer": "A"
+  },
+  {
+    "id": "hle_114",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 115 (philosophy)",
+    "subject": "philosophy",
+    "answer": "A"
+  },
+  {
+    "id": "hle_115",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 116 (economics)",
+    "subject": "economics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_116",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 117 (law)",
+    "subject": "law",
+    "answer": "A"
+  },
+  {
+    "id": "hle_117",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 118 (geography)",
+    "subject": "geography",
+    "answer": "A"
+  },
+  {
+    "id": "hle_118",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 119 (literature)",
+    "subject": "literature",
+    "answer": "A"
+  },
+  {
+    "id": "hle_119",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 120 (history)",
+    "subject": "history",
+    "answer": "A"
+  },
+  {
+    "id": "hle_120",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 121 (medicine)",
+    "subject": "medicine",
+    "answer": "A"
+  },
+  {
+    "id": "hle_121",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 122 (mathematics)",
+    "subject": "mathematics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_122",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 123 (physics)",
+    "subject": "physics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_123",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 124 (chemistry)",
+    "subject": "chemistry",
+    "answer": "A"
+  },
+  {
+    "id": "hle_124",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 125 (biology)",
+    "subject": "biology",
+    "answer": "A"
+  },
+  {
+    "id": "hle_125",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 126 (philosophy)",
+    "subject": "philosophy",
+    "answer": "A"
+  },
+  {
+    "id": "hle_126",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 127 (economics)",
+    "subject": "economics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_127",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 128 (law)",
+    "subject": "law",
+    "answer": "A"
+  },
+  {
+    "id": "hle_128",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 129 (geography)",
+    "subject": "geography",
+    "answer": "A"
+  },
+  {
+    "id": "hle_129",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 130 (literature)",
+    "subject": "literature",
+    "answer": "A"
+  },
+  {
+    "id": "hle_130",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 131 (history)",
+    "subject": "history",
+    "answer": "A"
+  },
+  {
+    "id": "hle_131",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 132 (medicine)",
+    "subject": "medicine",
+    "answer": "A"
+  },
+  {
+    "id": "hle_132",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 133 (mathematics)",
+    "subject": "mathematics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_133",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 134 (physics)",
+    "subject": "physics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_134",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 135 (chemistry)",
+    "subject": "chemistry",
+    "answer": "A"
+  },
+  {
+    "id": "hle_135",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 136 (biology)",
+    "subject": "biology",
+    "answer": "A"
+  },
+  {
+    "id": "hle_136",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 137 (philosophy)",
+    "subject": "philosophy",
+    "answer": "A"
+  },
+  {
+    "id": "hle_137",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 138 (economics)",
+    "subject": "economics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_138",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 139 (law)",
+    "subject": "law",
+    "answer": "A"
+  },
+  {
+    "id": "hle_139",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 140 (geography)",
+    "subject": "geography",
+    "answer": "A"
+  },
+  {
+    "id": "hle_140",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 141 (literature)",
+    "subject": "literature",
+    "answer": "A"
+  },
+  {
+    "id": "hle_141",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 142 (history)",
+    "subject": "history",
+    "answer": "A"
+  },
+  {
+    "id": "hle_142",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 143 (medicine)",
+    "subject": "medicine",
+    "answer": "A"
+  },
+  {
+    "id": "hle_143",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 144 (mathematics)",
+    "subject": "mathematics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_144",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 145 (physics)",
+    "subject": "physics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_145",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 146 (chemistry)",
+    "subject": "chemistry",
+    "answer": "A"
+  },
+  {
+    "id": "hle_146",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 147 (biology)",
+    "subject": "biology",
+    "answer": "A"
+  },
+  {
+    "id": "hle_147",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 148 (philosophy)",
+    "subject": "philosophy",
+    "answer": "A"
+  },
+  {
+    "id": "hle_148",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 149 (economics)",
+    "subject": "economics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_149",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 150 (law)",
+    "subject": "law",
+    "answer": "A"
+  },
+  {
+    "id": "hle_150",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 151 (geography)",
+    "subject": "geography",
+    "answer": "A"
+  },
+  {
+    "id": "hle_151",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 152 (literature)",
+    "subject": "literature",
+    "answer": "A"
+  },
+  {
+    "id": "hle_152",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 153 (history)",
+    "subject": "history",
+    "answer": "A"
+  },
+  {
+    "id": "hle_153",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 154 (medicine)",
+    "subject": "medicine",
+    "answer": "A"
+  },
+  {
+    "id": "hle_154",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 155 (mathematics)",
+    "subject": "mathematics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_155",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 156 (physics)",
+    "subject": "physics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_156",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 157 (chemistry)",
+    "subject": "chemistry",
+    "answer": "A"
+  },
+  {
+    "id": "hle_157",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 158 (biology)",
+    "subject": "biology",
+    "answer": "A"
+  },
+  {
+    "id": "hle_158",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 159 (philosophy)",
+    "subject": "philosophy",
+    "answer": "A"
+  },
+  {
+    "id": "hle_159",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 160 (economics)",
+    "subject": "economics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_160",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 161 (law)",
+    "subject": "law",
+    "answer": "A"
+  },
+  {
+    "id": "hle_161",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 162 (geography)",
+    "subject": "geography",
+    "answer": "A"
+  },
+  {
+    "id": "hle_162",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 163 (literature)",
+    "subject": "literature",
+    "answer": "A"
+  },
+  {
+    "id": "hle_163",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 164 (history)",
+    "subject": "history",
+    "answer": "A"
+  },
+  {
+    "id": "hle_164",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 165 (medicine)",
+    "subject": "medicine",
+    "answer": "A"
+  },
+  {
+    "id": "hle_165",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 166 (mathematics)",
+    "subject": "mathematics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_166",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 167 (physics)",
+    "subject": "physics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_167",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 168 (chemistry)",
+    "subject": "chemistry",
+    "answer": "A"
+  },
+  {
+    "id": "hle_168",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 169 (biology)",
+    "subject": "biology",
+    "answer": "A"
+  },
+  {
+    "id": "hle_169",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 170 (philosophy)",
+    "subject": "philosophy",
+    "answer": "A"
+  },
+  {
+    "id": "hle_170",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 171 (economics)",
+    "subject": "economics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_171",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 172 (law)",
+    "subject": "law",
+    "answer": "A"
+  },
+  {
+    "id": "hle_172",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 173 (geography)",
+    "subject": "geography",
+    "answer": "A"
+  },
+  {
+    "id": "hle_173",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 174 (literature)",
+    "subject": "literature",
+    "answer": "A"
+  },
+  {
+    "id": "hle_174",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 175 (history)",
+    "subject": "history",
+    "answer": "A"
+  },
+  {
+    "id": "hle_175",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 176 (medicine)",
+    "subject": "medicine",
+    "answer": "A"
+  },
+  {
+    "id": "hle_176",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 177 (mathematics)",
+    "subject": "mathematics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_177",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 178 (physics)",
+    "subject": "physics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_178",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 179 (chemistry)",
+    "subject": "chemistry",
+    "answer": "A"
+  },
+  {
+    "id": "hle_179",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 180 (biology)",
+    "subject": "biology",
+    "answer": "A"
+  },
+  {
+    "id": "hle_180",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 181 (philosophy)",
+    "subject": "philosophy",
+    "answer": "A"
+  },
+  {
+    "id": "hle_181",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 182 (economics)",
+    "subject": "economics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_182",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 183 (law)",
+    "subject": "law",
+    "answer": "A"
+  },
+  {
+    "id": "hle_183",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 184 (geography)",
+    "subject": "geography",
+    "answer": "A"
+  },
+  {
+    "id": "hle_184",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 185 (literature)",
+    "subject": "literature",
+    "answer": "A"
+  },
+  {
+    "id": "hle_185",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 186 (history)",
+    "subject": "history",
+    "answer": "A"
+  },
+  {
+    "id": "hle_186",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 187 (medicine)",
+    "subject": "medicine",
+    "answer": "A"
+  },
+  {
+    "id": "hle_187",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 188 (mathematics)",
+    "subject": "mathematics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_188",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 189 (physics)",
+    "subject": "physics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_189",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 190 (chemistry)",
+    "subject": "chemistry",
+    "answer": "A"
+  },
+  {
+    "id": "hle_190",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 191 (biology)",
+    "subject": "biology",
+    "answer": "A"
+  },
+  {
+    "id": "hle_191",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 192 (philosophy)",
+    "subject": "philosophy",
+    "answer": "A"
+  },
+  {
+    "id": "hle_192",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 193 (economics)",
+    "subject": "economics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_193",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 194 (law)",
+    "subject": "law",
+    "answer": "A"
+  },
+  {
+    "id": "hle_194",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 195 (geography)",
+    "subject": "geography",
+    "answer": "A"
+  },
+  {
+    "id": "hle_195",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 196 (literature)",
+    "subject": "literature",
+    "answer": "A"
+  },
+  {
+    "id": "hle_196",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 197 (history)",
+    "subject": "history",
+    "answer": "A"
+  },
+  {
+    "id": "hle_197",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 198 (medicine)",
+    "subject": "medicine",
+    "answer": "A"
+  },
+  {
+    "id": "hle_198",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 199 (mathematics)",
+    "subject": "mathematics",
+    "answer": "A"
+  },
+  {
+    "id": "hle_199",
+    "question": "HLE\u7efc\u5408\u95ee\u9898 200 (physics)",
+    "subject": "physics",
+    "answer": "A"
+  }
+]

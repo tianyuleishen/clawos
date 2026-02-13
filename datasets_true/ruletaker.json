@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "ruletaker_0",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 1",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_1",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 2",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_2",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 3",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_3",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 4",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_4",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 5",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_5",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 6",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_6",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 7",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_7",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 8",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_8",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 9",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_9",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 10",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_10",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 11",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_11",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 12",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_12",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 13",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_13",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 14",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_14",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 15",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_15",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 16",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_16",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 17",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_17",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 18",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_18",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 19",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_19",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 20",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_20",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 21",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_21",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 22",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_22",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 23",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_23",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 24",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_24",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 25",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_25",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 26",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_26",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 27",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_27",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 28",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_28",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 29",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_29",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 30",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_30",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 31",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_31",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 32",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_32",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 33",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_33",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 34",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_34",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 35",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_35",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 36",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_36",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 37",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_37",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 38",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_38",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 39",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_39",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 40",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_40",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 41",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_41",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 42",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_42",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 43",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_43",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 44",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_44",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 45",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_45",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 46",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_46",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 47",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_47",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 48",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_48",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 49",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_49",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 50",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_50",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 51",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_51",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 52",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_52",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 53",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_53",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 54",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_54",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 55",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_55",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 56",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_56",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 57",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_57",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 58",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_58",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 59",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_59",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 60",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_60",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 61",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_61",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 62",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_62",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 63",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_63",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 64",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_64",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 65",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_65",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 66",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_66",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 67",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_67",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 68",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_68",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 69",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_69",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 70",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_70",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 71",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_71",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 72",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_72",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 73",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_73",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 74",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_74",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 75",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_75",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 76",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_76",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 77",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_77",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 78",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_78",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 79",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_79",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 80",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_80",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 81",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_81",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 82",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_82",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 83",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_83",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 84",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_84",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 85",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_85",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 86",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_86",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 87",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_87",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 88",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_88",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 89",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_89",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 90",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_90",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 91",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_91",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 92",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_92",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 93",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_93",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 94",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_94",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 95",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_95",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 96",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_96",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 97",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_97",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 98",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_98",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 99",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_99",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 100",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_100",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 101",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_101",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 102",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_102",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 103",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_103",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 104",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_104",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 105",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_105",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 106",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_106",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 107",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_107",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 108",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_108",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 109",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_109",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 110",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_110",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 111",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_111",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 112",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_112",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 113",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_113",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 114",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_114",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 115",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_115",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 116",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_116",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 117",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_117",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 118",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_118",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 119",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_119",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 120",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_120",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 121",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_121",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 122",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_122",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 123",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_123",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 124",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_124",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 125",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_125",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 126",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_126",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 127",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_127",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 128",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_128",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 129",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_129",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 130",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_130",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 131",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_131",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 132",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_132",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 133",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_133",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 134",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_134",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 135",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_135",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 136",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_136",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 137",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_137",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 138",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_138",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 139",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_139",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 140",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_140",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 141",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_141",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 142",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_142",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 143",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_143",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 144",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_144",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 145",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_145",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 146",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_146",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 147",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_147",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 148",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_148",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 149",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_149",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 150",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_150",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 151",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_151",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 152",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_152",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 153",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_153",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 154",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_154",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 155",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_155",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 156",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_156",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 157",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_157",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 158",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_158",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 159",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_159",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 160",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_160",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 161",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_161",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 162",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_162",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 163",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_163",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 164",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_164",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 165",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_165",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 166",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_166",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 167",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_167",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 168",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_168",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 169",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_169",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 170",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_170",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 171",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_171",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 172",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_172",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 173",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_173",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 174",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_174",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 175",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_175",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 176",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_176",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 177",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_177",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 178",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_178",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 179",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_179",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 180",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_180",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 181",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_181",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 182",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_182",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 183",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_183",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 184",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_184",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 185",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_185",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 186",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_186",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 187",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_187",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 188",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_188",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 189",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_189",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 190",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_190",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 191",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_191",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 192",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_192",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 193",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_193",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 194",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_194",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 195",
+    "depth": 5,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_195",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 196",
+    "depth": 15,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_196",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 197",
+    "depth": 1,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_197",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 198",
+    "depth": 20,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_198",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 199",
+    "depth": 10,
+    "answer": "True"
+  },
+  {
+    "id": "ruletaker_199",
+    "question": "\u89c4\u5219\u63a8\u7406\u9898 200",
+    "depth": 5,
+    "answer": "True"
+  }
+]

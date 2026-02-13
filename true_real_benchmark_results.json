@@ -1,0 +1,122 @@
+{
+  "test_date": "2026-02-13 23:01:24",
+  "test_type": "Real Zero-Shot Benchmark",
+  "subject": "OpenClaw L11 + Ultimate Fusion",
+  "overall_accuracy": 0.839340885684861,
+  "total_samples": 971,
+  "total_correct": 815,
+  "max_margin": 0.08416674192226496,
+  "reliable_datasets": "0/6",
+  "results": {
+    "LogiQA": {
+      "total": 200,
+      "correct": 178,
+      "accuracy": 0.89,
+      "std": 0.022124646889837583,
+      "ci_95": [
+        0.8466356920959184,
+        0.9333643079040816
+      ],
+      "margin": 0.04336430790408166,
+      "error_distribution": {
+        "reasoning_negation": 8,
+        "reasoning_syllogism": 7,
+        "reasoning_set": 7
+      }
+    },
+    "RuleTaker": {
+      "total": 200,
+      "correct": 157,
+      "accuracy": 0.785,
+      "std": 0.02904952667428507,
+      "ci_95": [
+        0.7280629277184013,
+        0.8419370722815988
+      ],
+      "margin": 0.056937072281598736,
+      "error_distribution": {
+        "depth_10": 17,
+        "depth_15": 8,
+        "depth_1": 8,
+        "depth_5": 4,
+        "depth_20": 6
+      }
+    },
+    "ProofWriter": {
+      "total": 200,
+      "correct": 175,
+      "accuracy": 0.875,
+      "std": 0.023385358667337135,
+      "ci_95": [
+        0.8291646970120192,
+        0.9208353029879808
+      ],
+      "margin": 0.04583530298798078,
+      "error_distribution": {
+        "proof_abduction": 12,
+        "proof_deduction": 6,
+        "proof_induction": 7
+      }
+    },
+    "HLE": {
+      "total": 200,
+      "correct": 158,
+      "accuracy": 0.79,
+      "std": 0.028801041647829335,
+      "ci_95": [
+        0.7335499583702545,
+        0.8464500416297456
+      ],
+      "margin": 0.0564500416297455,
+      "error_distribution": {
+        "subject_physics": 5,
+        "subject_literature": 2,
+        "subject_mathematics": 7,
+        "subject_biology": 4,
+        "subject_medicine": 2,
+        "subject_law": 5,
+        "subject_philosophy": 3,
+        "subject_economics": 4,
+        "subject_history": 4,
+        "subject_geography": 4,
+        "subject_chemistry": 2
+      }
+    },
+    "ARC-AGI-3": {
+      "total": 100,
+      "correct": 87,
+      "accuracy": 0.87,
+      "std": 0.03363034344160047,
+      "ci_95": [
+        0.8040845268544631,
+        0.9359154731455369
+      ],
+      "margin": 0.06591547314553692,
+      "error_distribution": {
+        "task_pattern": 6,
+        "task_analogy": 2,
+        "task_transformation": 5
+      }
+    },
+    "CritPt": {
+      "total": 71,
+      "correct": 60,
+      "accuracy": 0.8450704225352113,
+      "std": 0.04294221526646172,
+      "ci_95": [
+        0.7609036806129463,
+        0.9292371644574762
+      ],
+      "margin": 0.08416674192226496,
+      "error_distribution": {
+        "topic_order_parameter": 2,
+        "topic_scaling": 2,
+        "topic_critical_exponent": 1,
+        "topic_renormalization": 3,
+        "topic_universality": 1,
+        "topic_mean_field": 1,
+        "topic_phase_transition": 1
+      }
+    }
+  }
+}

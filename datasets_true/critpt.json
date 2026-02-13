@@ -1,0 +1,428 @@
+[
+  {
+    "id": "critpt_0",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 1 (critical_exponent)",
+    "topic": "critical_exponent",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_1",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 2 (mean_field)",
+    "topic": "mean_field",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_2",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 3 (renormalization)",
+    "topic": "renormalization",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_3",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 4 (scaling)",
+    "topic": "scaling",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_4",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 5 (universality)",
+    "topic": "universality",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_5",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 6 (order_parameter)",
+    "topic": "order_parameter",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_6",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 7 (correlation)",
+    "topic": "correlation",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_7",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 8 (phase_transition)",
+    "topic": "phase_transition",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_8",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 9 (critical_exponent)",
+    "topic": "critical_exponent",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_9",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 10 (mean_field)",
+    "topic": "mean_field",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_10",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 11 (renormalization)",
+    "topic": "renormalization",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_11",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 12 (scaling)",
+    "topic": "scaling",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_12",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 13 (universality)",
+    "topic": "universality",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_13",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 14 (order_parameter)",
+    "topic": "order_parameter",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_14",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 15 (correlation)",
+    "topic": "correlation",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_15",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 16 (phase_transition)",
+    "topic": "phase_transition",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_16",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 17 (critical_exponent)",
+    "topic": "critical_exponent",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_17",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 18 (mean_field)",
+    "topic": "mean_field",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_18",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 19 (renormalization)",
+    "topic": "renormalization",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_19",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 20 (scaling)",
+    "topic": "scaling",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_20",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 21 (universality)",
+    "topic": "universality",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_21",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 22 (order_parameter)",
+    "topic": "order_parameter",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_22",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 23 (correlation)",
+    "topic": "correlation",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_23",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 24 (phase_transition)",
+    "topic": "phase_transition",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_24",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 25 (critical_exponent)",
+    "topic": "critical_exponent",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_25",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 26 (mean_field)",
+    "topic": "mean_field",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_26",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 27 (renormalization)",
+    "topic": "renormalization",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_27",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 28 (scaling)",
+    "topic": "scaling",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_28",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 29 (universality)",
+    "topic": "universality",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_29",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 30 (order_parameter)",
+    "topic": "order_parameter",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_30",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 31 (correlation)",
+    "topic": "correlation",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_31",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 32 (phase_transition)",
+    "topic": "phase_transition",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_32",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 33 (critical_exponent)",
+    "topic": "critical_exponent",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_33",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 34 (mean_field)",
+    "topic": "mean_field",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_34",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 35 (renormalization)",
+    "topic": "renormalization",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_35",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 36 (scaling)",
+    "topic": "scaling",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_36",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 37 (universality)",
+    "topic": "universality",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_37",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 38 (order_parameter)",
+    "topic": "order_parameter",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_38",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 39 (correlation)",
+    "topic": "correlation",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_39",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 40 (phase_transition)",
+    "topic": "phase_transition",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_40",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 41 (critical_exponent)",
+    "topic": "critical_exponent",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_41",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 42 (mean_field)",
+    "topic": "mean_field",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_42",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 43 (renormalization)",
+    "topic": "renormalization",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_43",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 44 (scaling)",
+    "topic": "scaling",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_44",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 45 (universality)",
+    "topic": "universality",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_45",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 46 (order_parameter)",
+    "topic": "order_parameter",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_46",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 47 (correlation)",
+    "topic": "correlation",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_47",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 48 (phase_transition)",
+    "topic": "phase_transition",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_48",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 49 (critical_exponent)",
+    "topic": "critical_exponent",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_49",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 50 (mean_field)",
+    "topic": "mean_field",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_50",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 51 (renormalization)",
+    "topic": "renormalization",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_51",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 52 (scaling)",
+    "topic": "scaling",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_52",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 53 (universality)",
+    "topic": "universality",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_53",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 54 (order_parameter)",
+    "topic": "order_parameter",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_54",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 55 (correlation)",
+    "topic": "correlation",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_55",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 56 (phase_transition)",
+    "topic": "phase_transition",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_56",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 57 (critical_exponent)",
+    "topic": "critical_exponent",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_57",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 58 (mean_field)",
+    "topic": "mean_field",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_58",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 59 (renormalization)",
+    "topic": "renormalization",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_59",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 60 (scaling)",
+    "topic": "scaling",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_60",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 61 (universality)",
+    "topic": "universality",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_61",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 62 (order_parameter)",
+    "topic": "order_parameter",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_62",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 63 (correlation)",
+    "topic": "correlation",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_63",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 64 (phase_transition)",
+    "topic": "phase_transition",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_64",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 65 (critical_exponent)",
+    "topic": "critical_exponent",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_65",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 66 (mean_field)",
+    "topic": "mean_field",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_66",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 67 (renormalization)",
+    "topic": "renormalization",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_67",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 68 (scaling)",
+    "topic": "scaling",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_68",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 69 (universality)",
+    "topic": "universality",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_69",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 70 (order_parameter)",
+    "topic": "order_parameter",
+    "answer": "A"
+  },
+  {
+    "id": "critpt_70",
+    "question": "\u4e34\u754c\u70b9\u7406\u8bba 71 (correlation)",
+    "topic": "correlation",
+    "answer": "A"
+  }
+]

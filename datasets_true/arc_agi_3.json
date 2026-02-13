@@ -1,0 +1,602 @@
+[
+  {
+    "id": "arc_0",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 1",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_1",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 2",
+    "task_type": "analogy",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_2",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 3",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_3",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 4",
+    "task_type": "analogy",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_4",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 5",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_5",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 6",
+    "task_type": "transformation",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_6",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 7",
+    "task_type": "transformation",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_7",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 8",
+    "task_type": "transformation",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_8",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 9",
+    "task_type": "transformation",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_9",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 10",
+    "task_type": "transformation",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_10",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 11",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_11",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 12",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_12",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 13",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_13",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 14",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_14",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 15",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_15",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 16",
+    "task_type": "transformation",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_16",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 17",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_17",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 18",
+    "task_type": "transformation",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_18",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 19",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_19",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 20",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_20",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 21",
+    "task_type": "analogy",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_21",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 22",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_22",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 23",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_23",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 24",
+    "task_type": "transformation",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_24",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 25",
+    "task_type": "analogy",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_25",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 26",
+    "task_type": "analogy",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_26",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 27",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_27",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 28",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_28",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 29",
+    "task_type": "analogy",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_29",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 30",
+    "task_type": "analogy",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_30",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 31",
+    "task_type": "transformation",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_31",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 32",
+    "task_type": "transformation",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_32",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 33",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_33",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 34",
+    "task_type": "analogy",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_34",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 35",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_35",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 36",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_36",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 37",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_37",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 38",
+    "task_type": "transformation",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_38",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 39",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_39",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 40",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_40",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 41",
+    "task_type": "transformation",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_41",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 42",
+    "task_type": "transformation",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_42",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 43",
+    "task_type": "analogy",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_43",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 44",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_44",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 45",
+    "task_type": "transformation",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_45",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 46",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_46",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 47",
+    "task_type": "analogy",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_47",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 48",
+    "task_type": "analogy",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_48",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 49",
+    "task_type": "analogy",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_49",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 50",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_50",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 51",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_51",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 52",
+    "task_type": "analogy",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_52",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 53",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_53",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 54",
+    "task_type": "transformation",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_54",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 55",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_55",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 56",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_56",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 57",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_57",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 58",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_58",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 59",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_59",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 60",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_60",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 61",
+    "task_type": "transformation",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_61",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 62",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_62",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 63",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_63",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 64",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_64",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 65",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_65",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 66",
+    "task_type": "analogy",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_66",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 67",
+    "task_type": "analogy",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_67",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 68",
+    "task_type": "analogy",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_68",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 69",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_69",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 70",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_70",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 71",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_71",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 72",
+    "task_type": "transformation",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_72",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 73",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_73",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 74",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_74",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 75",
+    "task_type": "analogy",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_75",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 76",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_76",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 77",
+    "task_type": "analogy",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_77",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 78",
+    "task_type": "analogy",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_78",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 79",
+    "task_type": "transformation",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_79",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 80",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_80",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 81",
+    "task_type": "transformation",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_81",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 82",
+    "task_type": "transformation",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_82",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 83",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_83",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 84",
+    "task_type": "transformation",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_84",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 85",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_85",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 86",
+    "task_type": "analogy",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_86",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 87",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_87",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 88",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_88",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 89",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_89",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 90",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_90",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 91",
+    "task_type": "transformation",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_91",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 92",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_92",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 93",
+    "task_type": "analogy",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_93",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 94",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_94",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 95",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_95",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 96",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_96",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 97",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_97",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 98",
+    "task_type": "spatial",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_98",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 99",
+    "task_type": "pattern",
+    "answer": "correct"
+  },
+  {
+    "id": "arc_99",
+    "question": "ARC\u89c6\u89c9\u63a8\u7406\u9898 100",
+    "task_type": "pattern",
+    "answer": "correct"
+  }
+]

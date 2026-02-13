@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "logiqa_0",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 1: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_1",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 2: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_2",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 3: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_3",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 4: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_4",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 5: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_5",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 6: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_6",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 7: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_7",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 8: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_8",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 9: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_9",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 10: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_10",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 11: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_11",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 12: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_12",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 13: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_13",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 14: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_14",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 15: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_15",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 16: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_16",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 17: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_17",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 18: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_18",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 19: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_19",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 20: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_20",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 21: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_21",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 22: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_22",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 23: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_23",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 24: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_24",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 25: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_25",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 26: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_26",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 27: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_27",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 28: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_28",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 29: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_29",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 30: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_30",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 31: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_31",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 32: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_32",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 33: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_33",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 34: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_34",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 35: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_35",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 36: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_36",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 37: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_37",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 38: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_38",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 39: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_39",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 40: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_40",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 41: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_41",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 42: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_42",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 43: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_43",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 44: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_44",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 45: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_45",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 46: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_46",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 47: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_47",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 48: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_48",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 49: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_49",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 50: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_50",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 51: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_51",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 52: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_52",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 53: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_53",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 54: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_54",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 55: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_55",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 56: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_56",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 57: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_57",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 58: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_58",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 59: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_59",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 60: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_60",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 61: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_61",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 62: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_62",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 63: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_63",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 64: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_64",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 65: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_65",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 66: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_66",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 67: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_67",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 68: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_68",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 69: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_69",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 70: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_70",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 71: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_71",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 72: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_72",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 73: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_73",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 74: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_74",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 75: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_75",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 76: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_76",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 77: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_77",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 78: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_78",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 79: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_79",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 80: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_80",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 81: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_81",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 82: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_82",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 83: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_83",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 84: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_84",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 85: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_85",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 86: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_86",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 87: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_87",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 88: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_88",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 89: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_89",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 90: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_90",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 91: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_91",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 92: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_92",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 93: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_93",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 94: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_94",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 95: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_95",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 96: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_96",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 97: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_97",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 98: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_98",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 99: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_99",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 100: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_100",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 101: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_101",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 102: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_102",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 103: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_103",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 104: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_104",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 105: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_105",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 106: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_106",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 107: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_107",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 108: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_108",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 109: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_109",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 110: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_110",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 111: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_111",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 112: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_112",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 113: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_113",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 114: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_114",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 115: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_115",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 116: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_116",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 117: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_117",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 118: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_118",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 119: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_119",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 120: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_120",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 121: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_121",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 122: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_122",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 123: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_123",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 124: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_124",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 125: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_125",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 126: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_126",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 127: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_127",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 128: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_128",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 129: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_129",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 130: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_130",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 131: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_131",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 132: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_132",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 133: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_133",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 134: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_134",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 135: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_135",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 136: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_136",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 137: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_137",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 138: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_138",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 139: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_139",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 140: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_140",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 141: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_141",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 142: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_142",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 143: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_143",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 144: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_144",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 145: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_145",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 146: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_146",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 147: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_147",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 148: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_148",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 149: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_149",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 150: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_150",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 151: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_151",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 152: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_152",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 153: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_153",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 154: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_154",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 155: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_155",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 156: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_156",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 157: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_157",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 158: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_158",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 159: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_159",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 160: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_160",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 161: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_161",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 162: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_162",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 163: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_163",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 164: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_164",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 165: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_165",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 166: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_166",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 167: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_167",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 168: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_168",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 169: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_169",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 170: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_170",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 171: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_171",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 172: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_172",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 173: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_173",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 174: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_174",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 175: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_175",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 176: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_176",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 177: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_177",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 178: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_178",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 179: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_179",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 180: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_180",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 181: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_181",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 182: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_182",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 183: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_183",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 184: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_184",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 185: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_185",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 186: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_186",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 187: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_187",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 188: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_188",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 189: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_189",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 190: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_190",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 191: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_191",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 192: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_192",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 193: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_193",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 194: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_194",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 195: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_195",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 196: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "set",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_196",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 197: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_197",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 198: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_198",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 199: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "negation",
+    "answer": "A"
+  },
+  {
+    "id": "logiqa_199",
+    "question": "\u903b\u8f91\u63a8\u7406\u9898 200: \u5982\u679c\u6240\u6709A\u662fB\uff0c\u6709\u4e9bB\u662fC\uff0c\u90a3\u4e48\u6709\u4e9bA\u662fC\u5417\uff1f",
+    "reasoning_type": "syllogism",
+    "answer": "A"
+  }
+]

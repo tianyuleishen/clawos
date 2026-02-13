@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "proofwriter_0",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 1",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_1",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 2",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_2",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 3",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_3",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 4",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_4",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 5",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_5",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 6",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_6",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 7",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_7",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 8",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_8",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 9",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_9",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 10",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_10",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 11",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_11",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 12",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_12",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 13",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_13",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 14",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_14",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 15",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_15",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 16",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_16",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 17",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_17",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 18",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_18",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 19",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_19",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 20",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_20",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 21",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_21",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 22",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_22",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 23",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_23",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 24",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_24",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 25",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_25",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 26",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_26",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 27",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_27",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 28",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_28",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 29",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_29",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 30",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_30",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 31",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_31",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 32",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_32",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 33",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_33",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 34",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_34",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 35",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_35",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 36",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_36",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 37",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_37",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 38",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_38",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 39",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_39",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 40",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_40",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 41",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_41",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 42",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_42",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 43",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_43",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 44",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_44",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 45",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_45",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 46",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_46",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 47",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_47",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 48",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_48",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 49",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_49",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 50",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_50",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 51",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_51",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 52",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_52",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 53",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_53",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 54",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_54",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 55",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_55",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 56",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_56",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 57",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_57",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 58",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_58",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 59",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_59",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 60",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_60",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 61",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_61",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 62",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_62",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 63",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_63",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 64",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_64",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 65",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_65",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 66",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_66",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 67",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_67",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 68",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_68",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 69",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_69",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 70",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_70",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 71",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_71",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 72",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_72",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 73",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_73",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 74",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_74",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 75",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_75",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 76",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_76",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 77",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_77",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 78",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_78",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 79",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_79",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 80",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_80",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 81",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_81",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 82",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_82",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 83",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_83",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 84",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_84",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 85",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_85",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 86",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_86",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 87",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_87",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 88",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_88",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 89",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_89",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 90",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_90",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 91",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_91",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 92",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_92",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 93",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_93",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 94",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_94",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 95",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_95",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 96",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_96",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 97",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_97",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 98",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_98",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 99",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_99",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 100",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_100",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 101",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_101",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 102",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_102",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 103",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_103",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 104",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_104",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 105",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_105",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 106",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_106",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 107",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_107",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 108",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_108",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 109",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_109",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 110",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_110",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 111",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_111",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 112",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_112",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 113",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_113",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 114",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_114",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 115",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_115",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 116",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_116",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 117",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_117",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 118",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_118",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 119",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_119",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 120",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_120",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 121",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_121",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 122",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_122",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 123",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_123",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 124",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_124",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 125",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_125",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 126",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_126",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 127",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_127",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 128",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_128",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 129",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_129",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 130",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_130",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 131",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_131",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 132",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_132",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 133",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_133",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 134",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_134",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 135",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_135",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 136",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_136",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 137",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_137",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 138",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_138",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 139",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_139",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 140",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_140",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 141",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_141",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 142",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_142",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 143",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_143",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 144",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_144",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 145",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_145",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 146",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_146",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 147",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_147",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 148",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_148",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 149",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_149",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 150",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_150",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 151",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_151",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 152",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_152",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 153",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_153",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 154",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_154",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 155",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_155",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 156",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_156",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 157",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_157",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 158",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_158",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 159",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_159",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 160",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_160",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 161",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_161",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 162",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_162",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 163",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_163",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 164",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_164",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 165",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_165",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 166",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_166",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 167",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_167",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 168",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_168",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 169",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_169",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 170",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_170",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 171",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_171",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 172",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_172",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 173",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_173",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 174",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_174",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 175",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_175",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 176",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_176",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 177",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_177",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 178",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_178",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 179",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_179",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 180",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_180",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 181",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_181",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 182",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_182",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 183",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_183",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 184",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_184",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 185",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_185",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 186",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_186",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 187",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_187",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 188",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_188",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 189",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_189",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 190",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_190",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 191",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_191",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 192",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_192",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 193",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_193",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 194",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_194",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 195",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_195",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 196",
+    "proof_type": "deduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_196",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 197",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_197",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 198",
+    "proof_type": "abduction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_198",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 199",
+    "proof_type": "induction",
+    "answer": "True"
+  },
+  {
+    "id": "proofwriter_199",
+    "question": "\u8bc1\u660e\u63a8\u7406\u9898 200",
+    "proof_type": "induction",
+    "answer": "True"
+  }
+]
