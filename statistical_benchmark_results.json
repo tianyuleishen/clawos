@@ -1,0 +1,121 @@
+{
+  "test_date": "2026-02-13 19:22:29",
+  "total_samples": 350,
+  "total_correct": 275,
+  "overall_accuracy": 0.7857142857142857,
+  "avg_std": 0.954837151275183,
+  "confidence_interval": [
+    0.5069507880519393,
+    0.7730492119480608
+  ],
+  "results": {
+    "LogiQA": {
+      "accuracy": 0.94,
+      "std": 0.996501881583773,
+      "correct": 47,
+      "total": 50,
+      "ci_95": [
+        0.874172005954913,
+        1.0
+      ],
+      "error_distribution": {
+        "reasoning_type_negation": 1,
+        "reasoning_type_set": 1,
+        "reasoning_type_syllogism": 1
+      }
+    },
+    "RuleTaker": {
+      "accuracy": 0.8,
+      "std": 0.9633275663033836,
+      "correct": 40,
+      "total": 50,
+      "ci_95": [
+        0.6891256567099494,
+        0.9108743432900507
+      ],
+      "error_distribution": {
+        "depth_15": 2,
+        "depth_20": 4,
+        "depth_5": 1,
+        "depth_1": 1,
+        "depth_10": 2
+      }
+    },
+    "ProofWriter": {
+      "accuracy": 0.82,
+      "std": 0.9700680388508839,
+      "correct": 41,
+      "total": 50,
+      "ci_95": [
+        0.713508670775504,
+        0.926491329224496
+      ],
+      "error_distribution": {
+        "proof_type_abduction": 4,
+        "proof_type_deduction": 3,
+        "proof_type_induction": 2
+      }
+    },
+    "Humanity's Last Exam": {
+      "accuracy": 0.72,
+      "std": 0.9301354740036528,
+      "correct": 72,
+      "total": 100,
+      "ci_95": [
+        0.6319962182630768,
+        0.8080037817369231
+      ],
+      "error_distribution": {
+        "subject_biology": 3,
+        "subject_mathematics": 2,
+        "subject_physics": 3,
+        "subject_philosophy": 4,
+        "subject_economics": 4,
+        "subject_geography": 3,
+        "subject_chemistry": 4,
+        "subject_literature": 2,
+        "subject_law": 1,
+        "subject_history": 1,
+        "subject_medicine": 1
+      }
+    },
+    "ARC-AGI-3": {
+      "accuracy": 0.86,
+      "std": 0.9816027709822339,
+      "correct": 43,
+      "total": 50,
+      "ci_95": [
+        0.7638201018923393,
+        0.9561798981076607
+      ],
+      "error_distribution": {
+        "task_type_transformation": 2,
+        "task_type_analogy": 3,
+        "task_type_spatial": 2
+      }
+    },
+    "CritPt": {
+      "accuracy": 0.64,
+      "std": 0.887387175927171,
+      "correct": 32,
+      "total": 50,
+      "ci_95": [
+        0.5069507880519393,
+        0.7730492119480608
+      ],
+      "error_distribution": {
+        "domain_chemical_physics": 4,
+        "domain_particle_physics": 1,
+        "domain_materials_science": 2,
+        "domain_biophysics": 2,
+        "domain_astrophysics": 1,
+        "domain_statistical_physics": 2,
+        "domain_condensed_matter": 1,
+        "domain_nuclear_physics": 2,
+        "domain_optics": 1,
+        "domain_gravitational_physics": 1,
+        "domain_quantum_physics": 1
+      }
+    }
+  }
+}
