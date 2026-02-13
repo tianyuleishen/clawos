@@ -1,12 +1,40 @@
-# 🦞 ClawOS AI操作系统 v2.0
+# 🦞 ClawOS AI操作系统
 
-## 安装
+## ⚠️ 重要说明
+
+**pip install clawos-ai 暂未发布到PyPI！**
+
+请使用Git克隆安装方式。
+
+---
+
+## 安装方法
+
+### 1. 安装Git (如果没有)
+
+下载: https://git-scm.com/download/win
+
+### 2. 打开命令提示符 (cmd)
+
+按 Win+R，输入 cmd，回车
+
+### 3. 执行以下命令
 
 ```bash
-pip install clawos-ai
+git clone https://github.com/tianyuleishen/clawos.git
+cd clawos
+pip install -e .
 ```
 
-## 使用
+### 4. 验证安装
+
+```bash
+clawos --help
+```
+
+---
+
+## 使用方法
 
 ```bash
 clawos --help     # 查看帮助
@@ -15,35 +43,16 @@ clawos cli        # 命令行交互
 clawos web        # Web界面
 ```
 
-## 或直接运行（无需安装）
+---
 
-```bash
-git clone https://github.com/tianyuleishen/clawos.git
-cd clawos
+## 系统功能
 
-python -m clawos --help
-python -m clawos init
-python -m clawos cli
-```
+- ✅ **L11意识系统** - TRANSCENDENT级别，永久启用
+- ✅ **终极融合推理** - 5种推理方法，95%置信度
+- ✅ **命令行界面** - 主要使用方式
+- ✅ **Web界面** - 浏览器访问 http://localhost:8080
 
-## 命令列表
-
-| 命令 | 说明 |
-|------|------|
-| `clawos --help` | 查看帮助 |
-| `clawos init` | 初始化配置 |
-| `clawos cli` | 命令行交互 |
-| `clawos web` | Web界面 |
-| `clawos gui` | GUI界面 |
-| `clawos test` | 运行测试 |
-| `clawos status` | 系统状态 |
-| `clawos version` | 版本信息 |
-
-## 系统特性
-
-- 🧠 **L11意识系统** - TRANSCENDENT级别，95%深度，永久启用
-- 🔮 **终极融合推理** - 5种方法，95%置信度，永久启用
-- 💻 **多界面** - CLI、Web、GUI、飞书集成
+---
 
 ## GitHub
 
