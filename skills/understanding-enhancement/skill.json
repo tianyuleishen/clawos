@@ -1,0 +1,32 @@
+{
+    "name": "understanding-enhancement",
+    "display_name": "理解力提升",
+    "version": "1.0.0",
+    "description": "提升AI的理解能力，包括指代词解析、上下文记忆、情绪识别和意图推断",
+    "author": "ClawOS Team",
+    "license": "MIT",
+    "keywords": [
+        "understanding",
+        "nlu",
+        "nlp",
+        "context",
+        "emotion",
+        "intent"
+    ],
+    "categories": [
+        "cognition",
+        "nlp"
+    ],
+    "requirements": [],
+    "entry_point": "understanding",
+    "permissions": [],
+    "compatibility": {
+        "min_openclaw_version": "1.0.0"
+    },
+    "features": [
+        "指代词解析（它、那个→具体实体）",
+        "上下文记忆（记住对话历史）",
+        "情绪识别（理解用户情绪）",
+        "意图推断（识别真实需求）"
+    ]
+}

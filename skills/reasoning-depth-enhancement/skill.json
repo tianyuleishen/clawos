@@ -1,0 +1,33 @@
+{
+    "name": "reasoning-depth-enhancement",
+    "display_name": "推理深度提升",
+    "version": "1.0.0",
+    "description": "提升推理深度，包括链式推理、因果分析、反事实推理和元推理",
+    "author": "ClawOS Team",
+    "license": "MIT",
+    "keywords": [
+        "reasoning",
+        "inference",
+        "chain-reasoning",
+        "causal-analysis",
+        "counterfactual",
+        "meta-reasoning"
+    ],
+    "categories": [
+        "cognition",
+        "reasoning",
+        "ai"
+    ],
+    "requirements": [],
+    "entry_point": "reasoning_depth",
+    "permissions": [],
+    "compatibility": {
+        "min_openclaw_version": "1.0.0"
+    },
+    "features": [
+        "链式推理（多步分解、验证）",
+        "因果分析（因果链、强度分析）",
+        "反事实推理（假设情景、结果预测）",
+        "元推理（策略选择、质量评估）"
+    ]
+}

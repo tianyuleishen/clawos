@@ -1,0 +1,33 @@
+{
+    "name": "code-quality-enhancement",
+    "display_name": "代码质量提升",
+    "version": "1.0.0",
+    "description": "提升代码质量，包括代码审查、最佳实践、错误处理和性能优化",
+    "author": "ClawOS Team",
+    "license": "MIT",
+    "keywords": [
+        "code-quality",
+        "review",
+        "best-practice",
+        "error-handling",
+        "performance",
+        "optimization"
+    ],
+    "categories": [
+        "development",
+        "coding"
+    ],
+    "requirements": [],
+    "entry_point": "code_quality",
+    "permissions": [],
+    "compatibility": {
+        "min_openclaw_version": "1.0.0"
+    },
+    "features": [
+        "代码审查（识别问题、异味、改进建议）",
+        "最佳实践（PEP8、规范、检查）",
+        "错误处理（错误模式、修复建议）",
+        "性能优化（识别瓶颈、生成优化代码）",
+        "综合质量报告"
+    ]
+}
