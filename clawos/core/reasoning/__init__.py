@@ -1,4 +1,4 @@
-# 🦞 Ultimate Fusion Engine v2.4 - 终极融合推理引擎
+# 🦞 Ultimate Fusion Engine v2.5 - 终极融合推理引擎
 
 """
 终极融合推理引擎 v2.1
@@ -39,6 +39,7 @@ class TaskType(Enum):
     COMMUNICATION = "communication"
     KNOWLEDGE = "knowledge"
     CREATIVITY = "creativity"
+    LONGTERM_MEMORY = "longterm_memory"
 
 
 @dataclass
@@ -100,10 +101,11 @@ class UltimateFusionEngine:
             self._init_traffic_engines()
             self._init_communication_engines()
             self._init_creativity_engines()
+            self._init_longterm_memory_engines()
             
             self.initialized = True
-            print("\n🦞 Ultimate Fusion Engine v2.4 初始化完成")
-            print("融合11个引擎（推理+知识+交通+沟通+创意）:")
+            print("\n🦞 Ultimate Fusion Engine v2.5 初始化完成")
+            print("融合12个引擎（推理+知识+交通+沟通+创意+记忆）:")
             print("  ├── Logic Engine (100%)")
             print("  ├── RuleTaker (100%)")
             print("  ├── Reasoning Engine (68.8%)")
@@ -181,6 +183,18 @@ class UltimateFusionEngine:
             print(f"⚠️ 创造力引擎加载失败: {e}")
             self.creativity_manager = CreativityManagerBuiltin()
             print("✅ CreativityManager 已加载 (内置版)")
+    
+    def _init_longterm_memory_engines(self):
+        """初始化长程记忆引擎"""
+        try:
+            sys.path.insert(0, '/home/admin/.openclaw/workspace/skills/longterm_memory')
+            from longterm_memory import LongTermMemoryManager
+            self.memory_manager = LongTermMemoryManager()
+            print("✅ MemoryManager 已加载 (长程记忆)")
+        except Exception as e:
+            print(f"⚠️ 长程记忆引擎加载失败: {e}")
+            self.memory_manager = MemoryManagerBuiltin()
+            print("✅ MemoryManager 已加载 (内置版)")
 
     async def analyze(self, task: str) -> AnalysisResult:
         """综合分析任务"""
@@ -201,7 +215,11 @@ class UltimateFusionEngine:
         if task_type == TaskType.CREATIVITY:
             return await self._creativity_analyze(task, task_type, start_time)
         
-        # 5. 知识广度优先
+        # 5. 长程记忆优先
+        if task_type == TaskType.LONGTERM_MEMORY:
+            return await self._memory_analyze(task, task_type, start_time)
+        
+        # 6. 知识广度优先
         if task_type == TaskType.KNOWLEDGE:
             return await self._knowledge_analyze(task, task_type, start_time)
         
@@ -261,6 +279,24 @@ class UltimateFusionEngine:
             result=f"创意生成: {result['suggested_technique']}",
             confidence=0.85,
             engine_used="creativity_manager",
+            task_type=task_type,
+            processing_time=time.time() - start_time
+        )
+
+
+    
+    async def _memory_analyze(self, task: str, task_type: TaskType, start_time: float) -> AnalysisResult:
+        """长程记忆分析"""
+        result = self.memory_manager.recall(task)
+        
+        memory_info = f"找到{len(result.memories)}条相关记忆"
+        if result.related_concepts:
+            memory_info += f", 关联概念: {', '.join(result.related_concepts[:3])}"
+        
+        return AnalysisResult(
+            result=memory_info,
+            confidence=min(0.95, result.confidence_score + 0.1),
+            engine_used="memory_manager",
             task_type=task_type,
             processing_time=time.time() - start_time
         )
@@ -461,6 +497,10 @@ class UltimateFusionEngine:
         # 创造力
         if any(kw in task_lower for kw in ["创意", "创新", "头脑风暴", "设计", "写作", "生成"]):
             return TaskType.CREATIVITY
+        
+        # 长程记忆
+        if any(kw in task_lower for kw in ["记忆", "回忆", "记得", "往事", "经验", "偏好"]):
+            return TaskType.LONGTERM_MEMORY
         
         # 逻辑
         if any(kw in task_lower for kw in ["如果", "所有", "有些"]):
@@ -749,6 +789,26 @@ class CreativityManagerBuiltin:
             "creative_triggers": ["如果...会怎样？"]
         }
 
+
+
+class MemoryManagerBuiltin:
+    """长程记忆管理器内置版"""
+    
+    def __init__(self):
+        print("MemoryManagerBuiltin initialized")
+        self.memories = {}
+    
+    def remember(self, content: str, **kwargs) -> str:
+        self.memories[content[:16]] = content
+        return content[:16]
+    
+    def recall(self, query: str) -> Dict:
+        return {
+            "query": query,
+            "memories": list(self.memories.values()),
+            "confidence_score": 0.5
+        }
+
 # 测试
 if __name__ == "__main__":
     async def test():
@@ -763,7 +823,7 @@ if __name__ == "__main__":
             ("三段论", "所有A是B，所有B是C。那么A是C吗？"),
         ]
         
-        print("\n🦞 Ultimate Fusion Engine v2.4 测试\n")
+        print("\n🦞 Ultimate Fusion Engine v2.5 测试\n")
         
         for name, task in tests:
             result = await engine.analyze(task)

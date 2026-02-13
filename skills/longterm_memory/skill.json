@@ -1,0 +1,33 @@
+{
+    "name": "longterm-memory-enhancement",
+    "display_name": "长程记忆增强",
+    "version": "1.0.0",
+    "description": "提供长期记忆、经验学习和用户偏好记忆能力，支持语义记忆、情景记忆和程序记忆",
+    "author": "OpenClaw",
+    "license": "MIT",
+    "keywords": [
+        "memory",
+        "longterm",
+        "learning",
+        "experience",
+        "preferences"
+    ],
+    "categories": [
+        "memory",
+        "learning",
+        "cognition"
+    ],
+    "requirements": [],
+    "entry_point": "longterm_memory",
+    "permissions": [],
+    "compatibility": {
+        "min_openclaw_version": "1.0.0"
+    },
+    "features": [
+        "语义记忆 (事实, 概念存储)",
+        "情景记忆 (事件, 经历记录)",
+        "程序记忆 (技能, 流程)",
+        "偏好记忆 (用户偏好学习)",
+        "经验学习 (从交互中学习)"
+    ]
+}
