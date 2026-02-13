@@ -1,0 +1,33 @@
+{
+    "name": "proactivity-enhancement",
+    "display_name": "主动性增强",
+    "version": "1.0.0",
+    "description": "提供主动交互能力，包括主动建议、需求预测、推荐提供、预防性提醒和主动帮助",
+    "author": "OpenClaw",
+    "license": "MIT",
+    "keywords": [
+        "proactivity",
+        "initiative",
+        "suggestion",
+        "recommendation",
+        "anticipation"
+    ],
+    "categories": [
+        "interaction",
+        "assistance",
+        "proactivity"
+    ],
+    "requirements": [],
+    "entry_point": "proactivity",
+    "permissions": [],
+    "compatibility": {
+        "min_openclaw_version": "1.0.0"
+    },
+    "features": [
+        "主动建议 (根据上下文提供)",
+        "需求预测 (预测用户下一步)",
+        "推荐提供 (资源, 方法, 最佳实践)",
+        "预防提醒 (常见陷阱和风险)",
+        "主动帮助 (非被动应答)"
+    ]
+}

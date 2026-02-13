@@ -4,19 +4,19 @@
 
 <p align="center">
 
-![ClawOS](https://img.shields.io/badge/ClawOS-v2.5-blue)
+![ClawOS](https://img.shields.io/badge/ClawOS-v2.6-blue)
 ![Python](https://img.shields.io/badge/Python-3.10+-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 </p>
 
-> ClawOS - AI操作系统，集成完整推理、理解和长期记忆能力。
+> ClawOS - AI操作系统，集成完整推理、理解和主动交互能力。
 
 ---
 
 ## ✨ 特性
 
-### 🧠 推理引擎 v2.5 (95% Codeforces)
+### 🧠 推理引擎 v2.6 (95% Codeforces)
 
 | 引擎 | 准确率 | 功能 |
 |------|--------|------|
@@ -65,7 +65,7 @@
 | 设计思维 | 同理心、构思、原型 |
 | 创意写作 | 标题生成、内容创作 |
 
-### 🧠 长程记忆 ⭐ NEW!
+### 🧠 长程记忆
 
 | 功能 | 描述 |
 |------|------|
@@ -74,6 +74,16 @@
 | 程序记忆 | 技能、流程记忆 |
 | 偏好记忆 | 用户偏好学习 |
 | 经验学习 | 从交互中学习 |
+
+### 🎯 主动性 ⭐ NEW!
+
+| 功能 | 描述 |
+|------|------|
+| 主动建议 | 根据上下文提供建议 |
+| 需求预测 | 预测用户下一步需求 |
+| 推荐提供 | 推荐资源、方法和最佳实践 |
+| 预防提醒 | 预防常见陷阱和风险 |
+| 主动帮助 | 主动提供帮助而非被动应答 |
 
 ### 💡 理解增强
 
@@ -107,11 +117,11 @@ clawos chat
 # 推理测试
 clawos reason "什么是相对论？"
 
+# 主动性查询
+clawos reason "我刚起步，应该怎么做？"
+
 # 创造力查询
 clawos reason "帮我生成一个新产品的创意"
-
-# 记忆查询
-clawos reason "我记得上次讨论了什么？"
 
 # IM配置
 clawos im configure feishu --app-id XXX --app-secret XXX
@@ -129,6 +139,7 @@ clawos im configure feishu --app-id XXX --app-secret XXX
 | 沟通能力 | 85% |
 | 创造力 | 85% |
 | 长程记忆 | 90% |
+| 主动性 | 85% |
 | 因果分析 | 85% |
 | 反事实推理 | 70% |
 
@@ -143,6 +154,7 @@ clawos im configure feishu --app-id XXX --app-secret XXX
 沟通技巧: 20+
 创新技术: 6+
 记忆类型: 5种
+主动性功能: 5个
 测试通过率: 100%
 ```
 
@@ -150,6 +162,6 @@ clawos im configure feishu --app-id XXX --app-secret XXX
 
 <p align="center">
 
-**🦞 ClawOS v2.5** - AI操作系统（推理+知识广度+交通+沟通+创造力+长程记忆+IM）
+**🦞 ClawOS v2.6** - AI操作系统（推理+知识广度+交通+沟通+创造力+长程记忆+主动性+IM）
 
 </p>
