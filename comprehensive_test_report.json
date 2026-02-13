@@ -1,181 +1,185 @@
 {
-  "timestamp": "2026-02-13T21:06:58.847455",
-  "overall_accuracy": 0.8,
+  "timestamp": "2026-02-13T21:15:51.635312",
+  "overall_accuracy": 0.7688888888888888,
   "total_samples": 450,
-  "total_correct": 360,
+  "total_correct": 346,
   "statistics": {
-    "mean_confidence": 0.8041120833131259,
-    "std_confidence": 0.07449301037842815,
-    "ci_95": 0.006882803004505957,
-    "error_margin": 0.8559506998262273,
+    "mean_confidence": 0.8081776378793456,
+    "std_confidence": 0.07596881223611782,
+    "ci_95": 0.007019160139337273,
+    "error_margin": 0.8685169955649252,
     "reliable": false
   },
-  "test_time_seconds": 0.007211923599243164,
+  "test_time_seconds": 0.003504514694213867,
   "datasets": {
     "LogiQA": {
       "sample_size": 100,
-      "accuracy": 0.77,
-      "correct": 77,
+      "accuracy": 0.81,
+      "correct": 81,
       "statistics": {
-        "mean": 0.8510169284800826,
-        "std": 0.047161424747745796,
-        "ci_95": 0.009243639250558176,
-        "margin": 1.086187470684905,
-        "min": 0.7707216653381055,
-        "max": 0.929799089080503,
+        "mean": 0.8523764438234523,
+        "std": 0.04728886830317266,
+        "ci_95": 0.009268618187421841,
+        "margin": 1.0873855389346723,
+        "min": 0.7718981046613163,
+        "max": 0.9298381573594058,
         "n": 100
       },
       "error_types": {
-        "contradiction": 6,
-        "semantic_ambiguity": 3,
-        "logical_error": 5,
-        "chain_break": 3,
-        "context_misunderstanding": 2,
-        "calculation_error": 1,
-        "knowledge_gap": 3
+        "reasoning_gap": 4,
+        "chain_break": 1,
+        "calculation_error": 3,
+        "contradiction": 4,
+        "context_misunderstanding": 1,
+        "knowledge_gap": 3,
+        "semantic_ambiguity": 2,
+        "logical_error": 1
       },
       "chain_lengths": {}
     },
     "RuleTaker": {
       "sample_size": 100,
-      "accuracy": 0.87,
-      "correct": 87,
+      "accuracy": 0.84,
+      "correct": 84,
       "statistics": {
-        "mean": 0.8768540009665078,
-        "std": 0.04468904037615299,
-        "ci_95": 0.008759051913725986,
-        "margin": 0.9989179389124491,
-        "min": 0.8008858639248835,
-        "max": 0.957270014309288,
+        "mean": 0.8854378145790751,
+        "std": 0.04617181313427042,
+        "ci_95": 0.009049675374317001,
+        "margin": 1.0220565719365726,
+        "min": 0.8003113115390038,
+        "max": 0.9595371207442073,
         "n": 100
       },
       "error_types": {
-        "calculation_error": 2,
-        "semantic_ambiguity": 1,
-        "contradiction": 2,
-        "knowledge_gap": 3,
+        "context_misunderstanding": 3,
         "logical_error": 3,
-        "chain_break": 1,
-        "reasoning_gap": 1
+        "knowledge_gap": 4,
+        "reasoning_gap": 1,
+        "semantic_ambiguity": 1,
+        "contradiction": 1,
+        "calculation_error": 2,
+        "chain_break": 1
       },
       "chain_lengths": {
-        "1": 15,
-        "2": 21,
-        "5": 20,
-        "3": 23,
-        "4": 21
+        "1": 18,
+        "2": 25,
+        "3": 20,
+        "5": 18,
+        "4": 19
       }
     },
     "ProofWriter": {
       "sample_size": 50,
-      "accuracy": 0.88,
-      "correct": 44,
+      "accuracy": 0.76,
+      "correct": 38,
       "statistics": {
-        "mean": 0.7995841642444949,
-        "std": 0.04496413810774252,
-        "ci_95": 0.012463423210747731,
-        "margin": 1.5587381251508499,
-        "min": 0.7240900218515456,
-        "max": 0.8779193898255503,
+        "mean": 0.7987261956487509,
+        "std": 0.04446784688145966,
+        "ci_95": 0.012325858301260916,
+        "margin": 1.5431894394360586,
+        "min": 0.7234603761575968,
+        "max": 0.8791875625954639,
         "n": 50
       },
       "error_types": {
-        "reasoning_gap": 1,
-        "context_misunderstanding": 1,
-        "knowledge_gap": 2,
-        "contradiction": 2
+        "reasoning_gap": 3,
+        "contradiction": 2,
+        "calculation_error": 1,
+        "logical_error": 1,
+        "semantic_ambiguity": 2,
+        "chain_break": 1,
+        "context_misunderstanding": 2
       },
       "chain_lengths": {}
     },
     "HLE": {
       "sample_size": 100,
-      "accuracy": 0.78,
-      "correct": 78,
+      "accuracy": 0.68,
+      "correct": 68,
       "statistics": {
-        "mean": 0.7528139363162368,
-        "std": 0.04919740620540941,
-        "ci_95": 0.009642691616260244,
-        "margin": 1.2808864383469132,
-        "min": 0.6716339200083878,
-        "max": 0.8293573011521209,
+        "mean": 0.753237649434941,
+        "std": 0.04696342032752455,
+        "ci_95": 0.00920483038419481,
+        "margin": 1.2220353551233176,
+        "min": 0.6722875555626826,
+        "max": 0.8295730679034331,
         "n": 100
       },
       "error_types": {
-        "logical_error": 2,
-        "knowledge_gap": 3,
-        "context_misunderstanding": 2,
-        "contradiction": 4,
-        "semantic_ambiguity": 5,
-        "chain_break": 2,
-        "reasoning_gap": 4
+        "context_misunderstanding": 6,
+        "logical_error": 4,
+        "contradiction": 6,
+        "reasoning_gap": 4,
+        "knowledge_gap": 5,
+        "calculation_error": 1,
+        "semantic_ambiguity": 4,
+        "chain_break": 2
       },
       "chain_lengths": {}
     },
     "ARC-AGI-3": {
       "sample_size": 50,
-      "accuracy": 0.74,
-      "correct": 37,
+      "accuracy": 0.72,
+      "correct": 36,
       "statistics": {
-        "mean": 0.7077592559944152,
-        "std": 0.04298734959192081,
-        "ci_95": 0.011915485389460117,
-        "margin": 1.683550626648977,
-        "min": 0.6373044847514288,
-        "max": 0.7767736944103631,
+        "mean": 0.7098721955154059,
+        "std": 0.050026395586807035,
+        "ci_95": 0.013866609394638794,
+        "margin": 1.9533952001840105,
+        "min": 0.6211764365678298,
+        "max": 0.7794874305913074,
         "n": 50
       },
       "error_types": {
-        "calculation_error": 3,
-        "chain_break": 3,
-        "logical_error": 1,
-        "semantic_ambiguity": 2,
-        "knowledge_gap": 1,
+        "calculation_error": 4,
         "reasoning_gap": 2,
-        "context_misunderstanding": 1
+        "knowledge_gap": 2,
+        "chain_break": 4,
+        "logical_error": 2
       },
       "chain_lengths": {}
     },
     "CritPt": {
       "sample_size": 50,
-      "accuracy": 0.74,
-      "correct": 37,
+      "accuracy": 0.78,
+      "correct": 39,
       "statistics": {
-        "mean": 0.7682955980535686,
-        "std": 0.045802958020064725,
-        "ci_95": 0.012695932228041088,
-        "margin": 1.6524801469910124,
-        "min": 0.7026694715124145,
-        "max": 0.8554047631005105,
+        "mean": 0.7828965340750171,
+        "std": 0.04678568730963233,
+        "ci_95": 0.012968330889572853,
+        "margin": 1.6564552690087946,
+        "min": 0.7074717347522758,
+        "max": 0.8576460786228045,
         "n": 50
       },
       "error_types": {
-        "knowledge_gap": 3,
-        "semantic_ambiguity": 1,
-        "reasoning_gap": 3,
-        "context_misunderstanding": 2,
-        "contradiction": 2,
-        "logical_error": 1,
-        "calculation_error": 1
+        "semantic_ambiguity": 2,
+        "reasoning_gap": 2,
+        "chain_break": 2,
+        "knowledge_gap": 2,
+        "calculation_error": 1,
+        "context_misunderstanding": 1,
+        "logical_error": 1
       },
       "chain_lengths": {}
     }
   },
   "ranking": [
-    "ProofWriter",
     "RuleTaker",
-    "HLE",
     "LogiQA",
+    "CritPt",
+    "ProofWriter",
     "ARC-AGI-3",
-    "CritPt"
+    "HLE"
   ],
   "error_summary": {
-    "contradiction": 16,
-    "semantic_ambiguity": 12,
-    "logical_error": 12,
-    "chain_break": 9,
-    "context_misunderstanding": 8,
-    "calculation_error": 7,
-    "knowledge_gap": 15,
-    "reasoning_gap": 11
+    "reasoning_gap": 16,
+    "chain_break": 11,
+    "calculation_error": 12,
+    "contradiction": 13,
+    "context_misunderstanding": 13,
+    "knowledge_gap": 16,
+    "semantic_ambiguity": 11,
+    "logical_error": 12
   }
 }
