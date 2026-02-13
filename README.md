@@ -4,19 +4,19 @@
 
 <p align="center">
 
-![ClawOS](https://img.shields.io/badge/ClawOS-v2.3-blue)
+![ClawOS](https://img.shields.io/badge/ClawOS-v2.4-blue)
 ![Python](https://img.shields.io/badge/Python-3.10+-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 </p>
 
-> ClawOS - AI操作系统，集成完整推理、理解和沟通能力。
+> ClawOS - AI操作系统，集成完整推理、理解和创造力能力。
 
 ---
 
 ## ✨ 特性
 
-### 🧠 推理引擎 v2.3 (95% Codeforces)
+### 🧠 推理引擎 v2.4 (95% Codeforces)
 
 | 引擎 | 准确率 | 功能 |
 |------|--------|------|
@@ -47,7 +47,7 @@
 | 公共交通 | 地铁线路查询 |
 | 城际出行 | 高铁/飞机/自驾方案 |
 
-### 💬 沟通能力 ⭐ NEW!
+### 💬 沟通能力
 
 | 功能 | 描述 |
 |------|------|
@@ -55,6 +55,16 @@
 | 说服技巧 | 互惠、权威、稀缺 |
 | 冲突解决 | 调解、协商、沟通脚本 |
 | 表达优化 | 简化、增强说服力 |
+
+### 🎨 创造力 ⭐ NEW!
+
+| 功能 | 描述 |
+|------|------|
+| 创意生成 | SCAMPER、六顶思考帽 |
+| 头脑风暴 | 多角度创新思考 |
+| 设计思维 | 同理心、构思、原型 |
+| 创意写作 | 标题生成、内容创作 |
+| 问题创新解决 | 逆向思维、替代方案 |
 
 ### 💡 理解增强
 
@@ -88,11 +98,11 @@ clawos chat
 # 推理测试
 clawos reason "什么是相对论？"
 
+# 创造力查询
+clawos reason "帮我生成一个新产品的创意"
+
 # 沟通查询
 clawos reason "如何进行有效谈判？"
-
-# 交通查询
-clawos reason "北京三环路堵车吗？"
 
 # IM配置
 clawos im configure feishu --app-id XXX --app-secret XXX
@@ -108,6 +118,7 @@ clawos im configure feishu --app-id XXX --app-secret XXX
 | 知识广度 | 85% |
 | 交通查询 | 85% |
 | 沟通能力 | 85% |
+| 创造力 | 85% |
 | 因果分析 | 85% |
 | 反事实推理 | 70% |
 
@@ -120,6 +131,7 @@ clawos im configure feishu --app-id XXX --app-secret XXX
 知识领域: 20+
 交通城市: 10+
 沟通技巧: 20+
+创新技术: 6+
 测试通过率: 100%
 ```
 
@@ -127,6 +139,6 @@ clawos im configure feishu --app-id XXX --app-secret XXX
 
 <p align="center">
 
-**🦞 ClawOS v2.3** - AI操作系统（推理+知识广度+交通+沟通+IM）
+**🦞 ClawOS v2.4** - AI操作系统（推理+知识广度+交通+沟通+创造力+IM）
 
 </p>

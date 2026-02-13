@@ -1,0 +1,33 @@
+{
+    "name": "creativity-enhancement",
+    "display_name": "创造力增强",
+    "version": "1.0.0",
+    "description": "提供创意生成、头脑风暴、设计思维和创意写作能力，支持多种创新技术",
+    "author": "OpenClaw",
+    "license": "MIT",
+    "keywords": [
+        "creativity",
+        "innovation",
+        "brainstorming",
+        "design-thinking",
+        "idea-generation"
+    ],
+    "categories": [
+        "creativity",
+        "innovation",
+        "problem-solving"
+    ],
+    "requirements": [],
+    "entry_point": "creativity",
+    "permissions": [],
+    "compatibility": {
+        "min_openclaw_version": "1.0.0"
+    },
+    "features": [
+        "创意生成 (SCAMPER, 六顶思考帽)",
+        "头脑风暴 (多角度创新)",
+        "设计思维 (同理心, 构思, 原型)",
+        "创意写作 (标题, 内容)",
+        "问题创新解决 (逆向思维, 替代方案)"
+    ]
+}

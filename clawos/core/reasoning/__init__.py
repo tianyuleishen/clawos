@@ -1,4 +1,4 @@
-# 🦞 Ultimate Fusion Engine v2.3 - 终极融合推理引擎
+# 🦞 Ultimate Fusion Engine v2.4 - 终极融合推理引擎
 
 """
 终极融合推理引擎 v2.1
@@ -38,6 +38,7 @@ class TaskType(Enum):
     TRAFFIC = "traffic"
     COMMUNICATION = "communication"
     KNOWLEDGE = "knowledge"
+    CREATIVITY = "creativity"
 
 
 @dataclass
@@ -98,10 +99,11 @@ class UltimateFusionEngine:
             self._init_knowledge_engines()
             self._init_traffic_engines()
             self._init_communication_engines()
+            self._init_creativity_engines()
             
             self.initialized = True
-            print("\n🦞 Ultimate Fusion Engine v2.3 初始化完成")
-            print("融合10个引擎（推理+知识+交通+沟通）:")
+            print("\n🦞 Ultimate Fusion Engine v2.4 初始化完成")
+            print("融合11个引擎（推理+知识+交通+沟通+创意）:")
             print("  ├── Logic Engine (100%)")
             print("  ├── RuleTaker (100%)")
             print("  ├── Reasoning Engine (68.8%)")
@@ -167,6 +169,18 @@ class UltimateFusionEngine:
             print(f"⚠️ 沟通引擎加载失败: {e}")
             self.communication_manager = CommunicationManagerBuiltin()
             print("✅ CommunicationManager 已加载 (内置版)")
+    
+    def _init_creativity_engines(self):
+        """初始化创造力引擎"""
+        try:
+            sys.path.insert(0, '/home/admin/.openclaw/workspace/skills/creativity')
+            from creativity import CreativityManager
+            self.creativity_manager = CreativityManager()
+            print("✅ CreativityManager 已加载 (创造力)")
+        except Exception as e:
+            print(f"⚠️ 创造力引擎加载失败: {e}")
+            self.creativity_manager = CreativityManagerBuiltin()
+            print("✅ CreativityManager 已加载 (内置版)")
 
     async def analyze(self, task: str) -> AnalysisResult:
         """综合分析任务"""
@@ -183,7 +197,11 @@ class UltimateFusionEngine:
         if task_type == TaskType.COMMUNICATION:
             return await self._communication_analyze(task, task_type, start_time)
         
-        # 4. 知识广度优先
+        # 4. 创造力优先
+        if task_type == TaskType.CREATIVITY:
+            return await self._creativity_analyze(task, task_type, start_time)
+        
+        # 5. 知识广度优先
         if task_type == TaskType.KNOWLEDGE:
             return await self._knowledge_analyze(task, task_type, start_time)
         
@@ -233,6 +251,20 @@ class UltimateFusionEngine:
             task_type=task_type,
             processing_time=time.time() - start_time
         )
+
+    
+    async def _creativity_analyze(self, task: str, task_type: TaskType, start_time: float) -> AnalysisResult:
+        """创造力分析"""
+        result = self.creativity_manager.enhance_creativity(task)
+        
+        return AnalysisResult(
+            result=f"创意生成: {result['suggested_technique']}",
+            confidence=0.85,
+            engine_used="creativity_manager",
+            task_type=task_type,
+            processing_time=time.time() - start_time
+        )
+
 
     async def _knowledge_analyze(self, task: str, task_type: TaskType, start_time: float) -> AnalysisResult:
         """知识广度分析"""
@@ -425,6 +457,10 @@ class UltimateFusionEngine:
         # 沟通
         if any(kw in task_lower for kw in ["谈判", "说服", "沟通", "冲突", "表达", "交流"]):
             return TaskType.COMMUNICATION
+        
+        # 创造力
+        if any(kw in task_lower for kw in ["创意", "创新", "头脑风暴", "设计", "写作", "生成"]):
+            return TaskType.CREATIVITY
         
         # 逻辑
         if any(kw in task_lower for kw in ["如果", "所有", "有些"]):
@@ -697,6 +733,22 @@ class CommunicationManagerBuiltin:
             "suggestions": ["简化", "增加逻辑"]
         }
 
+
+
+class CreativityManagerBuiltin:
+    """创造力管理器内置版"""
+    
+    def __init__(self):
+        print("CreativityManagerBuiltin initialized")
+    
+    def enhance_creativity(self, task: str) -> Dict:
+        return {
+            "task": task,
+            "suggested_technique": "SCAMPER",
+            "approaches": ["创新思考", "逆向思维"],
+            "creative_triggers": ["如果...会怎样？"]
+        }
+
 # 测试
 if __name__ == "__main__":
     async def test():
@@ -711,7 +763,7 @@ if __name__ == "__main__":
             ("三段论", "所有A是B，所有B是C。那么A是C吗？"),
         ]
         
-        print("\n🦞 Ultimate Fusion Engine v2.3 测试\n")
+        print("\n🦞 Ultimate Fusion Engine v2.4 测试\n")
         
         for name, task in tests:
             result = await engine.analyze(task)
