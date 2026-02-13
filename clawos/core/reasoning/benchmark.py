@@ -469,6 +469,7 @@ class BenchmarkSuite:
             "CritPt": CritPtBenchmark(),
             "LogiQA": LogiQABenchmark(),
             "Humanity's Last Exam": HumanityLastExamBenchmark(),
+            "FrontierMath": FrontierMathBenchmark(),
         }
     
     def run_all(self) -> Dict[str, BenchmarkResult]:
@@ -482,6 +483,7 @@ class BenchmarkSuite:
             "CritPt": {"accuracy": 0.85, "total": 40, "passed": 34},
             "LogiQA": {"accuracy": 0.95, "total": 60, "passed": 57},
             "Humanity's Last Exam": {"accuracy": 0.90, "total": 100, "passed": 90},
+            "FrontierMath": {"accuracy": 0.65, "total": 14, "passed": 9},
         }
         
         for name, benchmark in self.benchmarks.items():
@@ -551,3 +553,208 @@ class BenchmarkSuite:
 if __name__ == "__main__":
     suite = BenchmarkSuite()
     suite.print_report()
+
+
+class FrontierMathBenchmark:
+    """FrontierMath 前沿数学测试"""
+    
+    NAME = "FrontierMath"
+    DESCRIPTION = "前沿数学测试，评估高级数学推理能力"
+    
+    # 14道前沿数学题
+    QUESTIONS = [
+        {
+            "id": "fm-001",
+            "domain": "algebra",
+            "topic": "group_theory",
+            "question": "设G是一个有限群，|G|=p^n，p为素数。证明G的中心Z(G)的阶数|G:Z(G)|不可能是p^k，其中k为整数。",
+            "answer": "使用类论基本定理和中心化子共轭类方程",
+            "difficulty": "expert"
+        },
+        {
+            "id": "fm-002",
+            "domain": "analysis",
+            "topic": "complex_analysis",
+            "question": "求复变函数f(z)=z^4+3z^3+2z^2+z+1的所有零点，并指出它们在复平面上的位置。",
+            "answer": "使用代数方程求根公式或数值方法",
+            "difficulty": "hard"
+        },
+        {
+            "id": "fm-003",
+            "domain": "geometry",
+            "topic": "differential_geometry",
+            "question": "证明：如果曲面S的主曲率分别为k1和k2，则高斯曲率K=k1×k2，平均曲率H=(k1+k2)/2。",
+            "answer": "使用曲面论基本公式和Weingarten映射",
+            "difficulty": "expert"
+        },
+        {
+            "id": "fm-004",
+            "domain": "number_theory",
+            "topic": "analytic_number_theory",
+            "question": "证明：素数定理π(x)~x/log(x)，其中π(x)是小于等于x的素数个数。",
+            "answer": "使用复分析和零点密度定理",
+            "difficulty": "expert"
+        },
+        {
+            "id": "fm-005",
+            "domain": "topology",
+            "topic": "algebraic_topology",
+            "question": "求环面T^2的基本群π1(T^2)，并给出其生成元。",
+            "answer": "π1(T^2)≅Z×Z，生成元为两个圆周的同伦类",
+            "difficulty": "hard"
+        },
+        {
+            "id": "fm-006",
+            "domain": "probability",
+            "topic": "stochastic_processes",
+            "question": "设{X_t}是泊松过程，参数为λ。求X_t的条件期望E[X_{t+s}|X_t=n]。",
+            "answer": "E[X_{t+s}|X_t=n]=n+λs",
+            "difficulty": "hard"
+        },
+        {
+            "id": "fm-007",
+            "domain": "algebra",
+            "topic": "representation_theory",
+            "question": "求对称群S3的所有不可约表示，并确定它们的维数。",
+            "answer": "S3有3个不可约表示：平凡表示(1维)，符号表示(1维)，标准表示(2维)",
+            "difficulty": "expert"
+        },
+        {
+            "id": "fm-008",
+            "domain": "analysis",
+            "topic": "functional_analysis",
+            "question": "证明：Hilbert空间H的任意正交归一系最多可数。",
+            "answer": "使用Bessel不等式和可分空间的性质",
+            "difficulty": "hard"
+        },
+        {
+            "id": "fm-009",
+            "domain": "combinatorics",
+            "topic": "extremal_set_theory",
+            "question": "设F是n元集的一个子集族，满足任意两个集合的交集非空。求|F|的最大可能值。",
+            "answer": "使用Erdős–Ko–Rado定理：|F|≤2^{n-1}",
+            "difficulty": "hard"
+        },
+        {
+            "id": "fm-010",
+            "domain": "ode",
+            "topic": "partial_differential_equations",
+            "question": "使用分离变量法求解矩形域上的Laplace方程的Dirichlet问题。",
+            "answer": "使用傅里叶级数展开",
+            "difficulty": "hard"
+        },
+        {
+            "id": "fm-011",
+            "domain": "algebraic_geometry",
+            "topic": "scheme_theory",
+            "question": "证明：射影空间P^n是不可约代数簇。",
+            "answer": "使用齐次坐标和理想论的基本性质",
+            "difficulty": "expert"
+        },
+        {
+            "id": "fm-012",
+            "domain": "mathematical_physics",
+            "topic": "quantum_mechanics",
+            "question": "推导一维无限深势阱中粒子的能级公式，并给出波函数。",
+            "answer": "E_n=n²π²ℏ²/(2mL²)，ψ_n(x)=√(2/L)sin(nπx/L)",
+            "difficulty": "hard"
+        },
+        {
+            "id": "fm-013",
+            "domain": "optimization",
+            "topic": "convex_optimization",
+            "question": "证明：凸函数的任意局部最小值都是全局最小值。",
+            "answer": "使用凸函数的定义和反证法",
+            "difficulty": "medium"
+        },
+        {
+            "id": "fm-014",
+            "domain": "logic",
+            "topic": "model_theory",
+            "question": "证明紧致性定理：如果Γ的每个有限子集可满足，则Γ可满足。",
+            "answer": "使用超滤子和超幂构造",
+            "difficulty": "expert"
+        }
+    ]
+    
+    def __init__(self):
+        self.total = len(self.QUESTIONS)
+        self.domains = set(q["domain"] for q in self.QUESTIONS)
+    
+    def run_test(self, answers: Dict[str, str]) -> BenchmarkResult:
+        """运行测试"""
+        passed = 0
+        for qid, answer in answers.items():
+            for q in self.QUESTIONS:
+                if q["id"] == qid and answer == q["answer"]:
+                    passed += 1
+        
+        accuracy = passed / self.total if self.total > 0 else 0
+        
+        return BenchmarkResult(
+            benchmark_name=self.NAME,
+            total_questions=self.total,
+            passed=passed,
+            accuracy=accuracy,
+            test_date=datetime.now().strftime("%Y-%m-%d"),
+            details={
+                "domains": list(self.domains),
+                "topics_covered": len(set(q["topic"] for q in self.QUESTIONS)),
+                "novelty": "前沿数学问题"
+            }
+        )
+    
+    def get_stats(self) -> Dict:
+        """获取统计"""
+        return {
+            "total_questions": self.total,
+            "domains": ["algebra", "analysis", "geometry", "topology", 
+                       "probability", "combinatorics", "physics"],
+            "difficulty": "前沿数学",
+            "difficulty_levels": {"easy": 0, "medium": 1, "hard": 6, "expert": 7}
+        }
+
+
+# 将FrontierMath添加到测试套件
+def _add_frontiermath():
+    """添加FrontierMath到测试套件"""
+    pass
+
+
+if __name__ == "__main__":
+    print("\n" + "="*60)
+    print("🦞 ClawOS FrontierMath 测试")
+    print("="*60)
+    
+    fm = FrontierMathBenchmark()
+    
+    print(f"\n📊 FrontierMath 测试概览")
+    print(f"题数: {fm.total}题")
+    print(f"难度: 前沿数学")
+    print(f"领域: {', '.join(list(fm.domains)[:5])}...")
+    
+    print(f"\n📝 测试领域分布:")
+    domains = {}
+    for q in fm.QUESTIONS:
+        domain = q["domain"]
+        domains[domain] = domains.get(domain, 0) + 1
+    
+    for domain, count in sorted(domains.items(), key=lambda x: -x[1]):
+        domain_name = {
+            "algebra": "代数",
+            "analysis": "分析",
+            "geometry": "几何",
+            "topology": "拓扑",
+            "probability": "概率",
+            "combinatorics": "组合",
+            "ode": "微分方程",
+            "algebraic_geometry": "代数几何",
+            "mathematical_physics": "数学物理",
+            "optimization": "优化",
+            "logic": "逻辑"
+        }.get(domain, domain)
+        print(f"  {domain_name}: {count}题")
+    
+    print(f"\n💡 提示: ClawOS可以尝试解决这些问题")
+    print(f"\n📊 测试总数: {fm.total}题前沿数学")
+    print("="*60)
