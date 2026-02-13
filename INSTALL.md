@@ -1,135 +1,94 @@
-# Installation Guide
+# 🦞 ClawOS 安装指南
 
-## Prerequisites
+## 安装方式
 
-- **Python**: 3.10 or higher
-- **Operating System**: Linux, macOS, or Windows
-- **Memory**: 4GB RAM minimum (8GB recommended)
-- **Storage**: 500MB free space
-
----
-
-## Quick Install
-
-### Linux/macOS
+### 方式一：Git克隆（推荐）
 
 ```bash
-# Clone the repository
+# 1. 克隆仓库
 git clone https://github.com/tianyuleishen/clawos.git
 cd clawos
 
-# Make installation script executable
-chmod +x install.sh
+# 2. 运行安装脚本
+bash install.sh
 
-# Run installation
-./install.sh
+# 3. 初始化配置
+python clawos/onboarding.py
 
-# Activate environment (if using conda/venv)
-source venv/bin/activate  # Linux
-source venv/bin/activate  # macOS
-
-# Run the system
-python main.py
+# 4. 开始使用
+python clawos/cli.py
 ```
 
-### Windows
+### 方式二：pip安装
 
 ```bash
-# Clone the repository
+# 1. 克隆仓库
 git clone https://github.com/tianyuleishen/clawos.git
 cd clawos
 
-# Run installation script
-install.bat
+# 2. pip安装
+pip install -e .
 
-# Run the system
-python main.py
+# 3. 开始使用
+clawos help
 ```
 
----
-
-## Manual Installation
-
-### Step 1: Create Virtual Environment
+## 快速使用
 
 ```bash
-# Create virtual environment
-python -m venv venv
+# 查看帮助
+clawos help
 
-# Activate it
-# Linux/macOS:
-source venv/bin/activate
+# 安装系统
+clawos install
 
-# Windows:
-venv\Scripts\activate
+# 初始化配置
+clawos init
+
+# 启动命令行界面
+clawos cli
+
+# 启动Web界面
+clawos web
 ```
 
-### Step 2: Install Dependencies
+## 验证安装
 
 ```bash
-pip install -r requirements.txt
+# 检查系统状态
+clawos status
 ```
 
-### Step 3: Verify Installation
+## 常见问题
 
+### Python版本要求
+- Python 3.10+
+
+### Git未安装
 ```bash
-python verify_install.py
+# Ubuntu/Debian
+sudo apt-get install git
+
+# macOS
+brew install git
+
+# Windows
+# 下载安装: https://git-scm.com/download/win
 ```
 
-### Step 4: Run Tests
-
+### pip未安装
 ```bash
-# Run comprehensive benchmarks
-python comprehensive_test.py
+# Ubuntu/Debian
+sudo apt-get install python3-pip
+
+# macOS
+brew install pip
+
+# Windows
+# Python安装时勾选pip
 ```
 
----
+## 更多信息
 
-## Dependencies
-
-```
-# Core
-python>=3.10
-
-# All dependencies are listed in requirements.txt
-```
-
----
-
-## Troubleshooting
-
-### Python Version Error
-
-Make sure Python 3.10+ is installed:
-```bash
-python --version
-```
-
-### Pip Install Fails
-
-Try upgrading pip first:
-```bash
-pip install --upgrade pip
-```
-
-### Permission Errors (Linux/macOS)
-
-```bash
-# Use sudo or install in user space
-pip install --user -r requirements.txt
-```
-
----
-
-## Next Steps
-
-1. Read [README_GITHUB.md](README_GITHUB.md) for feature overview
-2. Run `python comprehensive_test.py` to verify benchmarks
-3. Explore `clawos/` directory for core modules
-
----
-
-## Support
-
-- GitHub Issues: https://github.com/tianyuleishen/clawos/issues
-- Report bugs and feature requests
+- GitHub: https://github.com/tianyuleishen/clawos
+- 文档: 查看README.md
