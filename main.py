@@ -32,12 +32,12 @@ def main():
     args = parser.parse_args()
     
     if args.command == "test" or args.command == "benchmark":
-        from .core.reasoning.benchmark import BenchmarkSuite
+        from clawos.core.reasoning.benchmark import BenchmarkSuite
         suite = BenchmarkSuite()
         suite.print_report()
     
     elif args.command == "run":
-        from . import Core
+        from clawos import Core
         import asyncio
         
         async def run():
