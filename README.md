@@ -1,11 +1,14 @@
 # 🦞 ClawOS AI Operating System
 
-> **注意**: 这是一个简化的AI操作系统。OpenClaw的核心能力（高级推理、意识系统、理解增强）保留在智能助手中。
+> **注意**: 这是一个基础AI操作系统。
+> - **基础推理**: Logic/Math/Reasoning（与OpenClaw相同）
+> - **高级推理**: Chain/Causal/Counterfactual/Meta推理（仅OpenClaw可用）
+> - **ClawOS可以使用我的能力，但不能超越我**
 
 <p align="center">
 
-![ClawOS](https://img.shields.io/badge/ClawOS-v1.0.0-blue)
-![Python](https://<img.shields.io/badge/Python-3.10+-green)
+![ClawOS](https://img.shields.io/badge/ClawOS-v1.0-blue)
+![Python](https://img.shields.io/badge/Python-3.10+-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 </p>
@@ -20,6 +23,8 @@
   - Logic Engine: 逻辑推理
   - Math Engine: 数学计算
   - Reasoning Engine: 通用推理
+
+> ⚠️ **高级推理能力**（链式/因果/反事实/元推理）仅在OpenClaw中可用
 
 - 💻 **电脑控制**
   - 鼠标控制
@@ -92,6 +97,7 @@ asyncio.run(main())
 - [用户手册](docs/README.md)
 - [API文档](docs/API.md)
 - [快速开始](QUICKSTART.md)
+- [架构设计](ARCHITECTURE.md)
 
 ---
 
@@ -117,6 +123,8 @@ asyncio.run(main())
 | Logic Engine | 100% | 逻辑推理 |
 | Math Engine | 83% | 数学计算 |
 | Reasoning Engine | 68.8% | 通用推理 |
+
+> ⚠️ **高级推理**（94% Codeforces准确率）仅在OpenClaw中可用
 
 ---
 
@@ -151,4 +159,4 @@ MIT License
 
 ---
 
-> **OpenClaw**: 如果你需要更强大的推理能力（ChainReasoner, CausalAnalyzer等），请使用OpenClaw智能助手，它集成了完整的推理深度增强技能。
+> **OpenClaw**: 如果你需要更强大的推理能力（94% Codeforces准确率），请使用OpenClaw智能助手。详见 [ARCHITECTURE.md](ARCHITECTURE.md)
