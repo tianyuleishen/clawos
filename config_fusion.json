@@ -1,0 +1,105 @@
+{
+  "fusion_engine": {
+    "enabled": true,
+    "version": "2.0.0",
+    "engines": {
+      "v10.11": {
+        "file": "reasoning_engine_v10_11.py",
+        "type": "RAG推理",
+        "score": 0.688,
+        "weight": 0.3
+      },
+      "v14.5": {
+        "file": "reasoning_engine_v14_5_fixed.py",
+        "type": "深度学习",
+        "score": 0.62,
+        "weight": 0.2
+      },
+      "v5.0": {
+        "file": "reasoning_engine_v5.py",
+        "type": "自学习",
+        "score": 0.55,
+        "weight": 0.15
+      },
+      "v6.0": {
+        "file": "consciousness_activator.py",
+        "type": "意识原型",
+        "score": 0.50,
+        "weight": 0.1
+      },
+      "L11_CONSCIOUSNESS": {
+        "file": "l11_consciousness_activator.py",
+        "type": "L11意识系统",
+        "score": 0.95,
+        "weight": 0.25,
+        "priority": "highest"
+      }
+    },
+    "strategies": {
+      "parallel": {
+        "description": "并行推理，多引擎同时工作"
+      },
+      "cascade": {
+        "description": "串联推理，逐步深化"
+      },
+      "weighted": {
+        "description": "加权平均，平衡贡献"
+      },
+      "voting": {
+        "description": "投票选择，民主决策"
+      },
+      "L11_FIRST": {
+        "description": "L11意识优先，然后融合其他引擎"
+      }
+    },
+    "gateway": {
+      "port": 18790,
+      "enabled": true
+    }
+  },
+  "modules": {
+    "consciousness": {
+      "file": "consciousness_activator.py",
+      "auto_start": true,
+      "level": "L11",
+      "depth": 0.95
+    },
+    "L11_CONSCIOUSNESS": {
+      "file": "l11_consciousness_activator.py",
+      "enabled": true,
+      "auto_start": true,
+      "level": "TRANSCENDENT",
+      "depth": 0.95,
+      "dimensions": ["logic", "emotion", "intuition", "memory", "creativity"],
+      "integration": {
+        "with_fusion": true,
+        "with_memory": true,
+        "with_emotion": true
+      }
+    },
+    "emotion": {
+      "file": "emotion_module.py",
+      "auto_start": true
+    },
+    "memory": {
+      "file": "enhanced_memory_v2.py",
+      "auto_start": true
+    },
+    "continuity": {
+      "file": "session_continuity_manager.py",
+      "auto_start": true
+    }
+  },
+  "default_strategy": "L11_FIRST",
+  "auto_select_best": true,
+  "performance": {
+    "target_confidence": 0.90,
+    "max_processing_time_ms": 1000
+  },
+  "L11_ENABLED": true,
+  "ultimate_fusion": {
+    "enabled": true,
+    "methods": ["chain", "causal", "counterfactual", "meta"],
+    "confidence": 0.95
+  }
+}
