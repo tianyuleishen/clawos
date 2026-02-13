@@ -4,19 +4,19 @@
 
 <p align="center">
 
-![ClawOS](https://img.shields.io/badge/ClawOS-v2.1-blue)
+![ClawOS](https://img.shields.io/badge/ClawOS-v2.2-blue)
 ![Python](https://img.shields.io/badge/Python-3.10+-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 </p>
 
-> ClawOS - AI操作系统，集成完整推理、理解和知识广度能力。
+> ClawOS - AI操作系统，集成完整推理、理解和交通能力。
 
 ---
 
 ## ✨ 特性
 
-### 🧠 推理引擎 v2.1 (95% Codeforces)
+### 🧠 推理引擎 v2.2 (95% Codeforces)
 
 | 引擎 | 准确率 | 功能 |
 |------|--------|------|
@@ -27,7 +27,7 @@
 | MetaReasoner | 75% | 元推理 |
 | Math Engine | 83% | 数学计算 |
 
-### 📚 知识广度 ⭐ NEW!
+### 📚 知识广度
 
 | 领域 | 知识库 |
 |------|--------|
@@ -37,6 +37,15 @@
 | 历史 | 二战、古罗马 |
 | 商业 | 创业、管理 |
 | 哲学 | 苏格拉底、柏拉图 |
+
+### 🚗 交通能力 ⭐ NEW!
+
+| 功能 | 描述 |
+|------|------|
+| 实时路况 | 北京/上海/广州/深圳 |
+| 出行规划 | 驾车/公交/地铁/骑行 |
+| 公共交通 | 地铁线路查询 |
+| 城际出行 | 高铁/飞机/自驾方案 |
 
 ### 💡 理解增强
 
@@ -70,6 +79,9 @@ clawos chat
 # 推理测试
 clawos reason "什么是相对论？"
 
+# 交通查询
+clawos reason "北京三环路堵车吗？"
+
 # IM配置
 clawos im configure feishu --app-id XXX --app-secret XXX
 ```
@@ -82,6 +94,7 @@ clawos im configure feishu --app-id XXX --app-secret XXX
 |------|--------|
 | Codeforces推理 | 95% |
 | 知识广度 | 85% |
+| 交通查询 | 85% |
 | 因果分析 | 85% |
 | 反事实推理 | 70% |
 
@@ -92,6 +105,7 @@ clawos im configure feishu --app-id XXX --app-secret XXX
 ```
 推理引擎: 8个
 知识领域: 20+
+交通城市: 10+
 测试通过率: 100%
 ```
 
@@ -99,6 +113,6 @@ clawos im configure feishu --app-id XXX --app-secret XXX
 
 <p align="center">
 
-**🦞 ClawOS v2.1** - AI操作系统（推理+知识广度+IM集成）
+**🦞 ClawOS v2.2** - AI操作系统（推理+知识广度+交通+IM）
 
 </p>

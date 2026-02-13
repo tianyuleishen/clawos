@@ -1,0 +1,33 @@
+{
+    "name": "traffic-enhancement",
+    "display_name": "交通能力增强",
+    "version": "1.0.0",
+    "description": "提供交通、导航和出行规划能力，支持路况查询、公交信息、路线规划",
+    "author": "OpenClaw",
+    "license": "MIT",
+    "keywords": [
+        "traffic",
+        "navigation",
+        "transport",
+        "route",
+        "transit"
+    ],
+    "categories": [
+        "utility",
+        "transportation",
+        "navigation"
+    ],
+    "requirements": [],
+    "entry_point": "traffic",
+    "permissions": [],
+    "compatibility": {
+        "min_openclaw_version": "1.0.0"
+    },
+    "features": [
+        "实时路况查询",
+        "公共交通信息",
+        "出行路线规划",
+        "城际出行方案",
+        "地理位置服务"
+    ]
+}
