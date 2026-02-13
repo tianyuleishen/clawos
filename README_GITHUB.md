@@ -155,93 +155,53 @@ This version is currently in **beta testing**.
 
 ---
 
-## 💻 Installation
+## 💻 Usage / 使用方法
 
-### Prerequisites
-
-- **Python**: 3.10 or higher
-- **OS**: Linux, macOS, or Windows
-- **Memory**: 4GB RAM minimum (8GB recommended)
-- **Storage**: 500MB free space
-
-### Quick Install
+### Quick Start / 快速开始
 
 ```bash
-# Clone the repository
-git clone https://github.com/tianyuleishen/clawos.git
+# 进入目录
 cd clawos
 
-# Install dependencies
-pip install -r requirements.txt
+# 方法1: Web界面 (推荐 - 浏览器中打开)
+python webgui.py
+# 然后浏览器访问: http://localhost:8080
 
-# Run the system
-python main.py
-```
+# 方法2: 交互式界面
+python clawos_gui.py
 
-### Verify Installation
+# 方法3: 简单菜单
+python simple_cli.py
 
-```bash
+# 方法4: 直接测试
+python comprehensive_test.py
+
+# 方法5: 验证安装
 python verify_install.py
 ```
 
-### Run Benchmarks
+### Interactive Commands / 交互命令
+
+| Command | Description | 说明 |
+|---------|-------------|------|
+| `reason [问题]` | Logical reasoning | 逻辑推理 |
+| `prove [问题]` | Mathematical proofs | 数学证明 |
+| `analyze [问题]` | Analyze arguments | 分析论证 |
+| `test` | Run tests | 运行测试 |
+| `help` | Show help | 显示帮助 |
+| `quit` | Exit | 退出 |
+
+### 示例 / Examples
 
 ```bash
-python comprehensive_test.py
-```
+# 逻辑推理
+> reason 如果A>B, B>C, 那么A>C吗？
 
----
+# 数学证明  
+> prove 证明勾股定理
 
-## 📖 Usage
-
-### Basic Usage
-
-```python
-import clawos
-
-# Initialize
-system = clawos.ClawOS()
-
-# Process a query
-result = system.reason("If all mammals are animals, and all dogs are mammals, what are dogs?")
-
-# Get the answer
-print(result.answer)
-print(result.confidence)
-print(result.reasoning_chain)
-```
-
-### Advanced Usage
-
-```python
-# Enable self-verification
-system = clawos.ClawOS(verification=True)
-
-# Get detailed reasoning
-result = system.analyze(
-    "Prove that the sum of even numbers is even",
-    mode="formal",
-    detail="high"
-)
-
-# Access verification
-if result.verified:
-    print("Proof is valid")
-else:
-    print(f"Error: {result.error}")
-```
-
-### CLI Usage
-
-```bash
-# Interactive mode
-python main.py --interactive
-
-# Single query
-python main.py --query "Your reasoning question here"
-
-# Run tests
-python main.py --test
+# 分析论证
+> analyze 分析这个论证的逻辑谬误
 ```
 
 ---
