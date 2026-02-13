@@ -48,6 +48,15 @@
 | BestPractice | 最佳实践 |
 | ErrorHandler | 错误处理 |
 
+### 💬 IM集成
+
+| 平台 | 状态 | 配置 |
+|------|------|------|
+| 飞书 | ✅ | app_id + app_secret |
+| 企业微信 | ✅ | corp_id + app_secret |
+| 钉钉 | ✅ | app_key + app_secret |
+| QQ | ✅ | http_url (CQHTTP) |
+
 ### 💻 电脑控制
 
 - 鼠标控制
@@ -191,3 +200,73 @@ MIT License
 
 > **OpenClaw**: 如果需要自我进化能力，请使用OpenClaw智能助手。
 > 详见 [ARCHITECTURE.md](ARCHITECTURE.md)
+
+---
+
+## 💬 IM集成使用
+
+### 配置IM平台
+
+```bash
+# 配置飞书
+clawos im configure feishu \
+    --app-id YOUR_APP_ID \
+    --app-secret YOUR_APP_SECRET
+
+# 配置企业微信
+clawos im configure wecom \
+    --corp-id YOUR_CORP_ID \
+    --app-secret YOUR_APP_SECRET
+
+# 配置钉钉
+clawos im configure dingtalk \
+    --app-key YOUR_APP_KEY \
+    --app-secret YOUR_APP_SECRET
+
+# 配置QQ (需要go-cqhttp)
+clawos im configure qq \
+    --http-url http://localhost:5700
+```
+
+### 使用IM功能
+
+```bash
+# 查看连接状态
+clawos im status
+
+# 连接平台
+clawos im connect feishu
+
+# 发送消息
+clawos im send feishu USER_ID "Hello!"
+
+# 发送到所有平台
+clawos im send-all "Hello from ClawOS!"
+```
+
+### Python API
+
+```python
+from clawos.im import IMManager
+
+# 创建管理器
+manager = IMManager()
+
+# 配置飞书
+manager.configure("feishu", {
+    "app_id": "your_app_id",
+    "app_secret": "your_app_secret"
+})
+
+# 发送消息
+await manager.connect("feishu")
+await manager.send_message("feishu", "user_id", "Hello!")
+```
+
+### 凭证获取
+
+- **飞书**: https://open.feishu.cn/
+- **企业微信**: https://work.weixin.qq.com/
+- **钉钉**: https://open.dingtalk.com/
+- **QQ**: 使用go-cqhttp (https://github.com/Mrs4s/go-cqhttp)
+

@@ -231,3 +231,133 @@ def main(command: str, args: tuple):
 
 if __name__ == "__main__":
     main()
+
+
+# ========== IM集成命令 ==========
+
+@app.group()
+def im():
+    """IM平台管理命令"""
+    pass
+
+
+@im.command("configure")
+@click.argument("platform", type=click.Choice(["feishu", "wecom", "dingtalk", "qq"]))
+@click.option("--app-id", help="App ID / Corp ID")
+@click.option("--app-secret", help="App Secret")
+@click.option("--app-key", help="App Key (钉钉)")
+@click.option("--agent-id", help="Agent ID")
+@click.option("--http-url", help="HTTP API URL (QQ)")
+@click.option("--access-token", help="Access Token")
+def im_configure(platform, app_id, app_secret, app_key, agent_id, http_url, access_token):
+    """配置IM平台凭证"""
+    from .im.manager import IMManager
+    
+    manager = IMManager()
+    
+    credentials = {}
+    if app_id:
+        credentials["app_id"] = app_id
+    if app_secret:
+        credentials["app_secret"] = app_secret
+    if app_key:
+        credentials["app_key"] = app_key
+    if agent_id:
+        credentials["agent_id"] = agent_id
+    if http_url:
+        credentials["webhook_url"] = http_url
+    if access_token:
+        credentials["access_token"] = access_token
+    
+    success = manager.configure(platform, credentials)
+    
+    if success:
+        click.echo(f"✅ {platform}配置成功")
+    else:
+        click.echo(f"❌ {platform}配置失败")
+
+
+@im.command("status")
+def im_status():
+    """查看IM连接状态"""
+    from .im.manager import IMManager
+    
+    manager = IMManager()
+    status = manager.get_status()
+    
+    click.echo("\n🦞 IM连接状态:\n")
+    
+    for platform, info in status.items():
+        if info["configured"]:
+            if info["connected"]:
+                click.echo(f"✅ {platform}: 已连接")
+            else:
+                click.echo(f"⚠️ {platform}: 已配置 (未连接)")
+        else:
+            click.echo(f"❌ {platform}: 未配置")
+
+
+@im.command("connect")
+@click.argument("platform", type=click.Choice(["feishu", "wecom", "dingtalk", "qq"]))
+async def im_connect(platform):
+    """连接IM平台"""
+    from .im.manager import IMManager
+    
+    manager = IMManager()
+    success = await manager.connect(platform)
+    
+    if success:
+        click.echo(f"✅ {platform}连接成功")
+    else:
+        click.echo(f"❌ {platform}连接失败")
+
+
+@im.command("disconnect")
+@click.argument("platform", type=click.Choice(["feishu", "wecom", "dingtalk", "qq"]))
+async def im_disconnect(platform):
+    """断开IM平台连接"""
+    from .im.manager import IMManager
+    
+    manager = IMManager()
+    await manager.disconnect(platform)
+    click.echo(f"✅ {platform}已断开")
+
+
+@im.command("send")
+@click.argument("platform", type=click.Choice(["feishu", "wecom", "dingtalk", "qq"]))
+@click.argument("target")
+@click.argument("message")
+async def im_send(platform, target, message):
+    """发送消息"""
+    from .im.manager import IMManager
+    
+    manager = IMManager()
+    success = await manager.send_message(platform, target, message)
+    
+    if success:
+        click.echo(f"✅ 消息已发送")
+    else:
+        click.echo(f"❌ 消息发送失败")
+
+
+@im.command("send-all")
+@click.argument("message")
+async def im_send_all(message):
+    """发送到所有已连接平台"""
+    from .im.manager import IMManager
+    
+    manager = IMManager()
+    results = await manager.send_all(message)
+    
+    for platform, success in results.items():
+        status = "✅" if success else "❌"
+        click.echo(f"{status} {platform}")
+
+
+@im.command("help-config")
+@click.argument("platform", type=click.Choice(["feishu", "wecom", "dingtalk", "qq"]))
+def im_help_config(platform):
+    """查看平台配置帮助"""
+    from .im import PLATFORM_HELP
+    
+    click.echo(PLATFORM_HELP.get(platform, "无帮助信息"))
