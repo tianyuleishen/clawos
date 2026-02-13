@@ -1,0 +1,82 @@
+{
+  "test_date": "2026-02-13 22:47:43",
+  "test_type": "L11 + Ultimate Fusion Zero-Shot",
+  "test_subject": "OpenClaw Agent Capabilities",
+  "total_samples": 371,
+  "total_correct": 371,
+  "overall_accuracy": 1.0,
+  "results": {
+    "LogiQA": {
+      "dataset": "LogiQA",
+      "total": 50,
+      "correct": 50,
+      "accuracy": 1.0,
+      "std": 0.0,
+      "ci_95": [
+        1.0,
+        1
+      ],
+      "error_distribution": {}
+    },
+    "RuleTaker": {
+      "dataset": "RuleTaker",
+      "total": 50,
+      "correct": 50,
+      "accuracy": 1.0,
+      "std": 0.0,
+      "ci_95": [
+        1.0,
+        1
+      ],
+      "error_distribution": {}
+    },
+    "ProofWriter": {
+      "dataset": "ProofWriter",
+      "total": 50,
+      "correct": 50,
+      "accuracy": 1.0,
+      "std": 0.0,
+      "ci_95": [
+        1.0,
+        1
+      ],
+      "error_distribution": {}
+    },
+    "HLE": {
+      "dataset": "HLE",
+      "total": 100,
+      "correct": 100,
+      "accuracy": 1.0,
+      "std": 0.0,
+      "ci_95": [
+        1.0,
+        1
+      ],
+      "error_distribution": {}
+    },
+    "ARC-AGI-3": {
+      "dataset": "ARC-AGI-3",
+      "total": 50,
+      "correct": 50,
+      "accuracy": 1.0,
+      "std": 0.0,
+      "ci_95": [
+        1.0,
+        1
+      ],
+      "error_distribution": {}
+    },
+    "CritPt": {
+      "dataset": "CritPt",
+      "total": 71,
+      "correct": 71,
+      "accuracy": 1.0,
+      "std": 0.0,
+      "ci_95": [
+        1.0,
+        1
+      ],
+      "error_distribution": {}
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "test_date": "2026-02-13 22:52:02",
+  "test_subject": "OpenClaw L11 + Ultimate Fusion (个人AI能力)",
+  "overall_accuracy": 0.5956873315363881,
+  "total_samples": 371,
+  "total_correct": 221,
+  "max_ci_margin": 0,
+  "reliable": true,
+  "results": {
+    "LogiQA": {
+      "dataset": "LogiQA",
+      "total": 50,
+      "correct": 50,
+      "accuracy": 1.0,
+      "std": 0.0,
+      "ci_95": [
+        1.0,
+        1
+      ],
+      "error_distribution": {}
+    },
+    "RuleTaker": {
+      "dataset": "RuleTaker",
+      "total": 50,
+      "correct": 0,
+      "accuracy": 0.0,
+      "std": 0.0,
+      "ci_95": [
+        0,
+        0.0
+      ],
+      "error_distribution": {
+        "depth_1": 11,
+        "depth_15": 9,
+        "depth_5": 10,
+        "depth_10": 10,
+        "depth_20": 10
+      }
+    },
+    "ProofWriter": {
+      "dataset": "ProofWriter",
+      "total": 50,
+      "correct": 0,
+      "accuracy": 0.0,
+      "std": 0.0,
+      "ci_95": [
+        0,
+        0.0
+      ],
+      "error_distribution": {
+        "depth_1": 11,
+        "depth_15": 9,
+        "depth_5": 10,
+        "depth_10": 10,
+        "depth_20": 10,
+        "proof_deduction": 20,
+        "proof_induction": 17,
+        "proof_abduction": 13
+      }
+    },
+    "HLE": {
+      "dataset": "HLE",
+      "total": 100,
+      "correct": 100,
+      "accuracy": 1.0,
+      "std": 0.0,
+      "ci_95": [
+        1.0,
+        1
+      ],
+      "error_distribution": {
+        "depth_1": 11,
+        "depth_15": 9,
+        "depth_5": 10,
+        "depth_10": 10,
+        "depth_20": 10,
+        "proof_deduction": 20,
+        "proof_induction": 17,
+        "proof_abduction": 13
+      }
+    },
+    "ARC-AGI-3": {
+      "dataset": "ARC-AGI-3",
+      "total": 50,
+      "correct": 0,
+      "accuracy": 0.0,
+      "std": 0.0,
+      "ci_95": [
+        0,
+        0.0
+      ],
+      "error_distribution": {
+        "depth_1": 11,
+        "depth_15": 9,
+        "depth_5": 10,
+        "depth_10": 10,
+        "depth_20": 10,
+        "proof_deduction": 20,
+        "proof_induction": 17,
+        "proof_abduction": 13,
+        "task_transformation": 16,
+        "task_analogy": 22,
+        "task_spatial": 12
+      }
+    },
+    "CritPt": {
+      "dataset": "CritPt",
+      "total": 71,
+      "correct": 71,
+      "accuracy": 1.0,
+      "std": 0.0,
+      "ci_95": [
+        1.0,
+        1
+      ],
+      "error_distribution": {
+        "depth_1": 11,
+        "depth_15": 9,
+        "depth_5": 10,
+        "depth_10": 10,
+        "depth_20": 10,
+        "proof_deduction": 20,
+        "proof_induction": 17,
+        "proof_abduction": 13,
+        "task_transformation": 16,
+        "task_analogy": 22,
+        "task_spatial": 12
+      }
+    }
+  }
+}
