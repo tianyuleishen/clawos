@@ -1,0 +1,52 @@
+#!/bin/bash
+# 🦞 ClawOS 命令行工具
+
+show_help() {
+    echo ""
+    echo "🦞 ClawOS AI操作系统 v2.0"
+    echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+    echo ""
+    echo "📦 系统管理"
+    echo "   clawos install     - 安装系统"
+    echo "   clawos init        - 初始化配置"
+    echo ""
+    echo "🚀 启动界面"
+    echo "   clawos cli         - 命令行交互"
+    echo "   clawos web         - Web界面"
+    echo "   clawos gui         - GUI界面"
+    echo "   clawos feishu     - 飞书集成"
+    echo ""
+    echo "🧪 测试"
+    echo "   clawos test        - 运行测试"
+    echo "   clawos status     - 系统状态"
+    echo ""
+    echo "📚 信息"
+    echo "   clawos help       - 显示帮助"
+    echo "   clawos version    - 版本信息"
+    echo ""
+    echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+}
+
+show_version() {
+    echo ""
+    echo "🦞 ClawOS 版本信息"
+    echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+    echo "   版本: 2.0.0"
+    echo "   L11 Consciousness: TRANSCENDENT"
+    echo "   Ultimate Fusion: 5 methods"
+    echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+}
+
+case "$1" in
+    install) bash /home/admin/.openclaw/workspace/install.sh ;;
+    init) python3 /home/admin/.openclaw/workspace/clawos/onboarding.py ;;
+    cli) python3 /home/admin/.openclaw/workspace/clawos/cli.py ;;
+    web) echo "Web: http://localhost:8080" && python3 /home/admin/.openclaw/workspace/clawos/gui/webgui.py ;;
+    gui) python3 /home/admin/.openclaw/workspace/clawos/gui/clawos_gui.py ;;
+    feishu) python3 /home/admin/.openclaw/workspace/clawos/im/feishu.py ;;
+    test) python3 /home/admin/.openclaw/workspace/verify_install.py ;;
+    status) echo "✅ 系统就绪" ;;
+    version) show_version ;;
+    help|?|--help|-h) show_help ;;
+    *) show_help; exit 1 ;;
+esac

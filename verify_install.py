@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """
-IntelliCore 安装验证脚本
-Enterprise Intelligent Decision System Verification
+ClawOS 安装验证脚本
+ClawOS AI Operating System Verification
 """
 
 import sys
+import os
 
 
 def check_python_version():
@@ -18,51 +19,45 @@ def check_python_version():
     return True
 
 
-def check_dependencies():
-    """检查依赖包"""
-    required_packages = [
-        "fastapi",
-        "uvicorn",
-        "pydantic",
-        "redis",
-        "sqlalchemy",
-    ]
-    
-    missing = []
-    for package in required_packages:
-        try:
-            __import__(package)
-            print(f"✅ {package} 已安装")
-        except ImportError:
-            missing.append(package)
-            print(f"❌ {package} 未安装")
-    
-    return len(missing) == 0
-
-
-def check_imports():
-    """检查导入"""
+def check_clawos():
+    """检查ClawOS安装"""
     try:
-        from intellicore import Core
-        print("✅ IntelliCore 核心模块导入成功")
+        # 检查clawos包是否存在
+        import clawos
+        print(f"✅ ClawOS 核心模块导入成功")
+        print(f"   版本: {clawos.__version__}")
+        
+        # 检查L11意识系统
+        try:
+            from clawos.core.consciousness import ConsciousnessLevel
+            print("✅ L11意识系统可用")
+        except ImportError:
+            print("⚠️ L11意识系统未找到")
+        
+        # 检查终极融合
+        try:
+            from clawos.core.fusion import ultimate_fusion_engine
+            print("✅ 终极融合推理可用")
+        except ImportError:
+            print("⚠️ 终极融合推理未找到")
+        
         return True
     except ImportError as e:
-        print(f"❌ 导入失败: {e}")
+        print(f"❌ ClawOS导入失败: {e}")
+        print("   请确保已安装: pip install -e .")
         return False
 
 
 def main():
     """主验证流程"""
     print("="*60)
-    print("  IntelliCore 安装验证")
-    print("  Enterprise Intelligent Decision System Verification")
+    print("  🦞 ClawOS 安装验证")
     print("="*60)
     print()
     
     checks = [
         ("Python版本", check_python_version()),
-        ("依赖包", check_dependencies()),
-        ("系统导入", check_imports()),
+        ("ClawOS安装", check_clawos()),
     ]
     
     print()
@@ -74,10 +69,11 @@ def main():
     if passed == total:
         print(f"  🎉 全部通过! ({passed}/{total})")
         print()
-        print("  IntelliCore 已准备就绪！")
+        print("  🦞 ClawOS 已准备就绪！")
+        print("  使用 'clawos --help' 查看命令")
     else:
         print(f"  ⚠️ 部分检查未通过 ({passed}/{total})")
-        print("  请根据错误信息进行修复")
+        print("  请运行: pip install -e .")
     
     print("="*60)
     
