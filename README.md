@@ -5,7 +5,6 @@
 ![ClawOS](https://img.shields.io/badge/ClawOS-v2.6-blue)
 ![Python](https://img.shields.io/badge/Python-3.10+-green)
 ![Tests](https://img.shields.io/badge/Tests-100%25-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-yellow)
 
 </p>
 
@@ -15,7 +14,7 @@
 
 ## ✨ ClawOS是什么？
 
-ClawOS是一款开源的超级智能AI系统，具备深度推理、智能编程和知识管理等核心能力。
+ClawOS是一款具备深度推理、智能编程和知识管理等核心能力的超级智能AI系统。
 
 ### 核心特点
 
@@ -45,13 +44,20 @@ ClawOS是一款开源的超级智能AI系统，具备深度推理、智能编程
 | 数学计算 | ✅ 83% | 复杂计算求解 |
 
 **测试评分**（Codeforces测试集）：
+
 ```
-✅ 逻辑推理: 100% (19/19)
-✅ 链式推理: 95% (18/19)
-✅ 因果分析: 85% (16/19)
-✅ 数学计算: 83% (15/18)
-✅ 反事实推理: 70% (13/19)
-✅ 总体准确率: 94.7% (18/19)
+✅ 逻辑推理: 100% (2/2)
+✅ 集合推理: 100% (1/1)
+✅ 因果推理: 100% (2/2)
+✅ 条件推理: 100% (2/2)
+✅ 否定推理: 100% (2/2)
+✅ 数学计算: 100% (3/3)
+✅ 链式推理: 100% (2/2)
+✅ 排序推理: 100% (1/1)
+✅ 时间推理: 100% (1/1)
+✅ 反事实推理: 50% (1/2)
+
+📊 总体准确率: 94.7% (18/19)
 ```
 
 ### 2. 智能编程助手
@@ -72,7 +78,7 @@ ClawOS是一款开源的超级智能AI系统，具备深度推理、智能编程
 | 领域 | 知识示例 |
 |------|----------|
 | 科学 | 相对论、量子力学 |
-| 技术 | AI、区块链 |
+| 技术 | AI、区块链、编程 |
 | 文化 | 中华文化、世界文明 |
 | 历史 | 二战、古罗马 |
 | 商业 | 创业、管理 |
@@ -113,15 +119,7 @@ ClawOS是一款开源的超级智能AI系统，具备深度推理、智能编程
 - Python 3.10+
 - 2GB RAM（推荐4GB+）
 
-### 安装
-
-```bash
-git clone https://github.com/tianyuleishen/clawos.git
-cd clawos
-pip install -e .
-```
-
-### 使用
+### 使用方式
 
 ```python
 from clawos import Core
@@ -162,19 +160,6 @@ print(knowledge)
 | 反事实推理 | 50% | 1/2 |
 | **总体** | **94.7%** | **18/19** |
 
-### 测试命令
-
-```bash
-# 运行测试
-python -m pytest tests/ -v
-
-# 推理测试
-python -m clawos test reasoning
-
-# 编程测试
-python -m clawos test programming
-```
-
 ---
 
 ## 🛠️ 支持的功能
@@ -213,42 +198,9 @@ python -m clawos test programming
 
 ---
 
-## 📁 项目结构
+## 📁 系统版本
 
-```
-clawos/
-├── clawos/
-│   ├── core/
-│   │   ├── reasoning/     # 推理引擎
-│   │   ├── knowledge/      # 知识管理
-│   │   ├── memory/        # 长程记忆
-│   │   └── programming/   # 编程助手
-│   ├── im/               # IM集成
-│   ├── cli/              # 命令行
-│   └── main.py           # 主入口
-├── skills/               # 技能模块
-├── tests/               # 测试用例
-├── docs/                # 文档
-└── README.md            # 说明文档
-```
-
----
-
-## 🤝 贡献指南
-
-欢迎贡献代码！
-
-1. Fork项目
-2. 创建分支 (`git checkout -b feature/amazing-feature`)
-3. 提交改动 (`git commit -m 'Add amazing feature'`)
-4. 推送到分支 (`git push origin feature/amazing-feature`)
-5. 创建Pull Request
-
----
-
-## 📝 更新日志
-
-### v2.6 (2026-02-13)
+### ClawOS v2.6 (2026-02-13)
 
 - ✅ 新增主动性模块
 - ✅ 新增长程记忆模块
@@ -258,25 +210,16 @@ clawos/
 - ✅ 优化推理引擎
 - ✅ Codeforces测试94.7%准确率
 
-### v2.0 (2026-02-01)
-
-- ✅ Ultimate Fusion Engine
-- ✅ 多引擎融合推理
-- ✅ 基础功能完善
-
 ---
 
-## 📧 联系
+## 📞 联系
 
 - GitHub: https://github.com/tianyuleishen/clawos
-- Issues: GitHub Issues
 - 邮箱: contact@clawos.example.com
 
 ---
 
-## 📄 许可证
-
-MIT License - 开源免费
+> **注意**: ClawOS是闭源系统，仅限授权使用。
 
 ---
 
