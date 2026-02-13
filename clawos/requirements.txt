@@ -1,0 +1,48 @@
+# 🦞 ClawOS 依赖列表
+
+# Core dependencies
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# AI/ML (optional, for future extensions)
+# torch>=2.0.0
+# transformers>=4.30.0
+# sentence-transformers>=2.2.2
+
+# Web framework
+fastapi>=0.100.0
+uvicorn>=0.22.0
+pydantic>=2.0.0
+aiofiles>=23.0.0
+httpx>=0.24.0
+
+# CLI tools
+click>=8.1.0
+rich>=13.0.0
+pyyaml>=6.0.0
+requests>=2.31.0
+
+# Data storage
+sqlmodel>=0.0.14
+alembic>=1.11.0
+
+# GUI (optional, for desktop app)
+# PyQt6>=6.5.0
+# pyside6>=6.5.0
+# pyttsx3>=2.90
+
+# Automation (optional)
+# pyautogui>=0.9.54
+# keyboard>=0.13.5
+# mouse>=0.7.1
+# pyperclip>=1.8.2
+
+# OCR (optional)
+# pytesseract>=0.3.10
+# Pillow>=10.0.0
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.0.0
