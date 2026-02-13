@@ -1,0 +1,32 @@
+{
+    "name": "knowledge-breadth-enhancement",
+    "display_name": "知识广度增强",
+    "version": "1.0.0",
+    "description": "提升推理引擎的知识广度，支持多领域知识检索和百科全书式查询",
+    "author": "OpenClaw",
+    "license": "MIT",
+    "keywords": [
+        "knowledge",
+        "breadth",
+        "encyclopedia",
+        "reasoning",
+        "multi-domain"
+    ],
+    "categories": [
+        "cognition",
+        "knowledge",
+        "reasoning"
+    ],
+    "requirements": [],
+    "entry_point": "knowledge_breadth",
+    "permissions": [],
+    "compatibility": {
+        "min_openclaw_version": "1.0.0"
+    },
+    "features": [
+        "多领域知识检索 (20+领域)",
+        "百科全书式查询",
+        "跨领域知识综合",
+        "实时知识获取接口"
+    ]
+}
