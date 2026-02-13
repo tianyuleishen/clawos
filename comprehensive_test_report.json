@@ -1,0 +1,178 @@
+{
+  "timestamp": "2026-02-13T20:01:22.783015",
+  "overall_accuracy": 0.8155555555555556,
+  "total_samples": 450,
+  "total_correct": 367,
+  "statistics": {
+    "mean_confidence": 0.8054798475366062,
+    "std_confidence": 0.07635711868723181,
+    "ci_95": 0.007055037824972734,
+    "error_margin": 0.8758801162498492,
+    "reliable": false
+  },
+  "test_time_seconds": 0.0018467903137207031,
+  "datasets": {
+    "LogiQA": {
+      "sample_size": 100,
+      "accuracy": 0.83,
+      "correct": 83,
+      "statistics": {
+        "mean": 0.853325409763692,
+        "std": 0.04458291372648879,
+        "ci_95": 0.008738251090391802,
+        "margin": 1.0240233081552852,
+        "min": 0.7700448602040045,
+        "max": 0.9296487969086611,
+        "n": 100
+      },
+      "error_types": {
+        "reasoning_gap": 1,
+        "semantic_ambiguity": 2,
+        "knowledge_gap": 2,
+        "chain_break": 2,
+        "calculation_error": 4,
+        "contradiction": 1,
+        "context_misunderstanding": 4,
+        "logical_error": 1
+      },
+      "chain_lengths": {}
+    },
+    "RuleTaker": {
+      "sample_size": 100,
+      "accuracy": 0.93,
+      "correct": 93,
+      "statistics": {
+        "mean": 0.8804878622866984,
+        "std": 0.04524011805327424,
+        "ci_95": 0.00886706313844175,
+        "margin": 1.0070625068485635,
+        "min": 0.8035800953416775,
+        "max": 0.9592336752176319,
+        "n": 100
+      },
+      "error_types": {
+        "semantic_ambiguity": 2,
+        "reasoning_gap": 3,
+        "contradiction": 1,
+        "knowledge_gap": 1
+      },
+      "chain_lengths": {
+        "4": 24,
+        "2": 23,
+        "5": 19,
+        "1": 19,
+        "3": 15
+      }
+    },
+    "ProofWriter": {
+      "sample_size": 50,
+      "accuracy": 0.78,
+      "correct": 39,
+      "statistics": {
+        "mean": 0.800233542337,
+        "std": 0.04786380479371265,
+        "ci_95": 0.013267169809665169,
+        "margin": 1.6579122353356697,
+        "min": 0.7203804664712359,
+        "max": 0.8788217289068007,
+        "n": 50
+      },
+      "error_types": {
+        "context_misunderstanding": 4,
+        "calculation_error": 2,
+        "logical_error": 2,
+        "reasoning_gap": 2,
+        "knowledge_gap": 1
+      },
+      "chain_lengths": {}
+    },
+    "HLE": {
+      "sample_size": 100,
+      "accuracy": 0.76,
+      "correct": 76,
+      "statistics": {
+        "mean": 0.7523233910884679,
+        "std": 0.044403408952164776,
+        "ci_95": 0.008703068154624296,
+        "margin": 1.1568254101514273,
+        "min": 0.673513237521052,
+        "max": 0.8294634108766881,
+        "n": 100
+      },
+      "error_types": {
+        "semantic_ambiguity": 3,
+        "knowledge_gap": 5,
+        "calculation_error": 4,
+        "reasoning_gap": 2,
+        "logical_error": 3,
+        "chain_break": 4,
+        "context_misunderstanding": 2,
+        "contradiction": 1
+      },
+      "chain_lengths": {}
+    },
+    "ARC-AGI-3": {
+      "sample_size": 50,
+      "accuracy": 0.76,
+      "correct": 38,
+      "statistics": {
+        "mean": 0.6964200426403367,
+        "std": 0.04598751351356146,
+        "ci_95": 0.012747088400896141,
+        "margin": 1.830373570606629,
+        "min": 0.6269214315865367,
+        "max": 0.7694857254996984,
+        "n": 50
+      },
+      "error_types": {
+        "semantic_ambiguity": 2,
+        "knowledge_gap": 3,
+        "contradiction": 2,
+        "chain_break": 2,
+        "context_misunderstanding": 2,
+        "calculation_error": 1
+      },
+      "chain_lengths": {}
+    },
+    "CritPt": {
+      "sample_size": 50,
+      "accuracy": 0.76,
+      "correct": 38,
+      "statistics": {
+        "mean": 0.7803917165744023,
+        "std": 0.04645149546823543,
+        "ci_95": 0.012875697637203417,
+        "margin": 1.6499018843667916,
+        "min": 0.7045867289770505,
+        "max": 0.8588672586509072,
+        "n": 50
+      },
+      "error_types": {
+        "contradiction": 2,
+        "reasoning_gap": 7,
+        "context_misunderstanding": 1,
+        "calculation_error": 1,
+        "knowledge_gap": 1
+      },
+      "chain_lengths": {}
+    }
+  },
+  "ranking": [
+    "RuleTaker",
+    "LogiQA",
+    "ProofWriter",
+    "HLE",
+    "ARC-AGI-3",
+    "CritPt"
+  ],
+  "error_summary": {
+    "reasoning_gap": 15,
+    "semantic_ambiguity": 9,
+    "knowledge_gap": 13,
+    "chain_break": 8,
+    "calculation_error": 12,
+    "contradiction": 7,
+    "context_misunderstanding": 13,
+    "logical_error": 6
+  }
+}
