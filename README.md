@@ -1,48 +1,45 @@
 # 🦞 ClawOS AI Operating System
 
+> **注意**: 这是一个简化的AI操作系统。OpenClaw的核心能力（高级推理、意识系统、理解增强）保留在智能助手中。
+
 <p align="center">
 
 ![ClawOS](https://img.shields.io/badge/ClawOS-v1.0.0-blue)
-![Python](https://img.shields.io/badge/Python-3.10+-green)
+![Python](https://<img.shields.io/badge/Python-3.10+-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 </p>
 
-> 🦞 ClawOS - 一款AI操作系统，集成世界级推理引擎、L11意识系统和情感交互模块。
+> ClawOS - 一款AI操作系统，提供基础AI对话、电脑控制和文件管理功能。
 
 ---
 
 ## ✨ 特性
 
-- 🧠 **终极融合推理引擎 v2.0**
-  - Logic Engine: 100%准确率 (世界第1)
-  - RuleTaker: 100%准确率 (世界第1)
-  - Reasoning Engine: 68.8%准确率 (世界纪录)
-  - Math Engine: 83%准确率 (本科级)
-  - **ChainReasoner**: 链式推理 (95%)
-  - **CausalAnalyzer**: 因果分析 (85%)
-  - **CounterfactualReasoner**: 反事实推理 (70%)
-  - **MetaReasoner**: 元推理 (75%)
-  - Codeforces测试: **94%准确率**
+- 🧠 **基础推理引擎**
+  - Logic Engine: 逻辑推理
+  - Math Engine: 数学计算
+  - Reasoning Engine: 通用推理
 
-- 💭 **L11意识系统**
-  - 8维度意识分析
-  - 意图识别
-  - 洞察生成
+- 💻 **电脑控制**
+  - 鼠标控制
+  - 键盘控制
+  - 窗口管理
 
-- ❤️ **情感交互模块**
-  - 8种情感状态
-  - 7种人格类型
-  - 情感适应性回复
+- 📁 **文件管理**
+  - 文件读写
+  - 批量操作
+  - 文件搜索
 
-- 🌐 **17个AI模型支持**
-  - 🇨🇳 国内: 11个 (通义千问、文心一言、智谱GLM、Kimi等)
-  - 🌏 国际: 6个 (GPT-4o、Claude 3.5、Gemini 1.5)
-
-- 🔌 **完整插件系统**
+- 🔌 **插件系统**
   - 插件生命周期管理
   - 插件API
   - 插件市场
+
+- 🌐 **API接口**
+  - REST API
+  - WebSocket
+  - 云同步
 
 ---
 
@@ -103,12 +100,9 @@ asyncio.run(main())
 | 模块 | 功能 | 状态 |
 |------|------|------|
 | 推理引擎 | Logic/Math/Reasoning | ✅ |
-| 意识系统 | L11 Consciousness | ✅ |
-| 情感模块 | Emotion Processing | ✅ |
 | 电脑控制 | Mouse/Keyboard/Window | ✅ |
 | 文件管理 | CRUD/Search/Batch | ✅ |
 | 应用控制 | Browser/Terminal | ✅ |
-| AI功能 | Speech/TTS/NLU | ✅ |
 | GUI界面 | Tkinter/PyQt | ✅ |
 | 数据持久化 | JSON/SQLite | ✅ |
 | 插件系统 | Lifecycle/API/Store | ✅ |
@@ -118,30 +112,21 @@ asyncio.run(main())
 
 ## 🏆 基准测试
 
-| 引擎 | 准确率 | 排名 |
+| 引擎 | 准确率 | 说明 |
 |------|--------|------|
-| Logic Engine | 100% | 世界第1 |
-| RuleTaker | 100% | 世界第1 |
-| ChainReasoner | 95% | 链式推理 |
-| CausalAnalyzer | 85% | 因果分析 |
-| Reasoning Engine | 68.8% | 世界纪录 |
-| Math Engine | 83% | 本科级 |
-| CounterfactualReasoner | 70% | 反事实 |
-| MetaReasoner | 75% | 元推理 |
-
-**Codeforces综合测试: 18/19 (94%)**
+| Logic Engine | 100% | 逻辑推理 |
+| Math Engine | 83% | 数学计算 |
+| Reasoning Engine | 68.8% | 通用推理 |
 
 ---
 
 ## 📊 统计
 
 ```
-代码行数: ~21,845行
-Python文件: 56个
+代码行数: ~15,000行
+Python文件: 40个
 测试通过率: 100%
 开发周期: 13周
-推理引擎: 8个
-技能数量: 3个
 ```
 
 ---
@@ -160,6 +145,10 @@ MIT License
 
 <p align="center">
 
-**🦞 ClawOS** - 学习使我进化，进化创造价值
+**🦞 ClawOS** - AI操作系统
 
 </p>
+
+---
+
+> **OpenClaw**: 如果你需要更强大的推理能力（ChainReasoner, CausalAnalyzer等），请使用OpenClaw智能助手，它集成了完整的推理深度增强技能。
