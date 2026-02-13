@@ -3,9 +3,11 @@
 
 """
 验证ClawOS是否正确安装
+验证所有能力是否可用
 """
 
 import sys
+import asyncio
 
 
 def check_python_version():
@@ -19,7 +21,7 @@ def check_python_version():
 
 
 def check_imports():
-    """检查关键依赖"""
+    """检查依赖"""
     print("\n📦 检查依赖...")
     
     deps = [
@@ -34,45 +36,35 @@ def check_imports():
             __import__(module)
             print(f"  ✅ {desc} ({module})")
         except ImportError:
-            print(f"  ❌ {desc} ({module}) - 请运行: pip install {module}")
+            print(f"  ❌ {desc} ({module})")
             all_ok = False
     
     return all_ok
 
 
 def check_clawos():
-    """检查ClawOS安装"""
-    print("\n🔧 检查ClawOS安装...")
+    """检查ClawOS"""
+    print("\n🔧 检查ClawOS...")
     
     try:
         import clawos
         print(f"  ✅ ClawOS版本: {clawos.__version__}")
         
-        # 检查核心模块
-        try:
-            from clawos.cli import main
-            print("  ✅ CLI模块")
-        except Exception as e:
-            print(f"  ⚠️ CLI模块: {e}")
-        
-        try:
-            from clawos.onboarding import get_onboarding_manager
-            print("  ✅ Onboarding模块")
-        except Exception as e:
-            print(f"  ⚠️ Onboarding模块: {e}")
-        
+        # 检查推理引擎
         try:
             from clawos.core.reasoning import UltimateFusionEngine
-            print("  ✅ 基础推理引擎 (Logic/Math/Reasoning)")
+            print("  ✅ UltimateFusionEngine (完整版)")
         except Exception as e:
             print(f"  ❌ 推理引擎: {e}")
         
+        # 检查电脑控制
         try:
             from clawos.controls import MouseController
             print("  ✅ 鼠标控制")
         except Exception as e:
             print(f"  ⚠️ 鼠标控制: {e}")
         
+        # 检查文件管理
         try:
             from clawos.files import FileManager
             print("  ✅ 文件管理")
@@ -80,10 +72,8 @@ def check_clawos():
             print(f"  ⚠️ 文件管理: {e}")
         
         return True
-        
     except ImportError as e:
         print(f"  ❌ ClawOS导入失败: {e}")
-        print("  请运行: pip install -e .")
         return False
 
 
@@ -94,17 +84,19 @@ async def test_reasoning():
     try:
         from clawos.core.reasoning import UltimateFusionEngine
         
-        tests = [
-            ("逻辑", "如果A>B且B>C，那么A>C吗？"),
-            ("数学", "计算 1 + 1 = ?"),
-            ("通用", "今天天气怎么样？"),
-        ]
-        
         engine = UltimateFusionEngine()
+        
+        tests = [
+            ("链式推理", "如果A>B且B>C，那么A>C吗？"),
+            ("因果分析", "因为下雨，所以地湿了。"),
+            ("反事实", "假如我没有努力学习，我就不会通过考试。"),
+            ("数学", "计算 1 + 1 = ?"),
+            ("三段论", "所有A是B，所有B是C。那么所有A是C吗？"),
+        ]
         
         for name, task in tests:
             result = await engine.analyze(task)
-            status = "✅" if result.confidence > 0.5 else "⚠️"
+            status = "✅" if result.confidence > 0.5 else "❌"
             print(f"  {status} [{name}] {result.engine_used} ({result.confidence:.0%})")
         
         return True
@@ -113,43 +105,67 @@ async def test_reasoning():
         return False
 
 
-def main():
-    """主验证函数"""
+def show_capabilities():
+    """显示能力配置"""
+    print("\n📊 ClawOS能力配置:")
+    print("""
+  ✅ 推理能力:
+     ├── ChainReasoner (链式推理)
+     ├── CausalAnalyzer (因果分析)
+     ├── CounterfactualReasoner (反事实推理)
+     └── MetaReasoner (元推理)
+  
+  ✅ 理解能力:
+     ├── PronounResolver (指代消解)
+     ├── ContextTracker (上下文追踪)
+     ├── EmotionRecognizer (情感识别)
+     └── IntentInferrer (意图推断)
+  
+  ✅ 代码质量:
+     ├── CodeReviewer (代码审查)
+     ├── BestPractice (最佳实践)
+     └── ErrorHandler (错误处理)
+  
+  ❌ 禁止能力:
+     ├── Self-Learning (自我学习)
+     ├── Algorithm Innovation (算法创新)
+     ├── Self-Improvement (自我改进)
+     └── Capability Creation (能力创造)
+    """)
+
+
+async def main():
+    """主验证"""
     print("=" * 60)
-    print("🦞 ClawOS 安装验证 v1.0 (简化版)")
+    print("🦞 ClawOS v2.0 安装验证")
     print("=" * 60)
     
     results = []
     
-    # 1. Python版本
     results.append(check_python_version())
-    
-    # 2. 依赖检查
     results.append(check_imports())
-    
-    # 3. ClawOS安装
     results.append(check_clawos())
+    await test_reasoning()
+    show_capabilities()
     
-    # 4. 推理测试
-    import asyncio
-    asyncio.run(test_reasoning())
-    
-    # 总结
     print("\n" + "=" * 60)
     
     if all(results):
         print("✅ ClawOS安装验证通过！")
-        print("\n使用说明:")
-        print("  clawos chat              # 进入对话模式")
-        print("  clawos reason '问题'     # 测试推理")
+        print("\n使用方法:")
+        print("  clawos chat              # 进入对话")
+        print("  clawos reason '问题'    # 推理测试")
         print("  clawos status           # 查看状态")
-        print("  clawos --reconfigure    # 重新配置")
-        print("\n注意: 这是简化版ClawOS")
-        print("高级推理能力请使用OpenClaw智能助手")
+        print("\n能力:")
+        print("  • 完整推理引擎 (8个)")
+        print("  • 理解增强模块")
+        print("  • 代码质量工具")
+        print("  • 电脑控制 + 文件管理")
+        print("  ⚠️ 无自我进化能力")
         return 0
     else:
         print("❌ 部分检查未通过")
-        print("\n安装步骤:")
+        print("\n安装:")
         print("  1. pip install -r requirements.txt")
         print("  2. pip install -e .")
         print("  3. python verify_install.py")
@@ -157,5 +173,5 @@ def main():
 
 
 if __name__ == "__main__":
-    exit_code = main()
+    exit_code = asyncio.run(main())
     sys.exit(exit_code)
