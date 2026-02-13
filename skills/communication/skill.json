@@ -1,0 +1,33 @@
+{
+    "name": "communication-enhancement",
+    "display_name": "沟通能力增强",
+    "version": "1.0.0",
+    "description": "提供谈判、说服、冲突解决和沟通技巧，支持多种沟通场景",
+    "author": "OpenClaw",
+    "license": "MIT",
+    "keywords": [
+        "communication",
+        "negotiation",
+        "persuasion",
+        "conflict",
+        "conversation"
+    ],
+    "categories": [
+        "communication",
+        "negotiation",
+        "soft-skills"
+    ],
+    "requirements": [],
+    "entry_point": "communication",
+    "permissions": [],
+    "compatibility": {
+        "min_openclaw_version": "1.0.0"
+    },
+    "features": [
+        "谈判策略 (BATNA, 锚定效应)",
+        "说服技巧 (互惠, 权威, 稀缺)",
+        "冲突解决 (调解, 协商)",
+        "沟通模板 (请求, 拒绝, 反馈)",
+        "对话管理"
+    ]
+}

@@ -1,4 +1,4 @@
-# 🦞 Ultimate Fusion Engine v2.2 - 终极融合推理引擎
+# 🦞 Ultimate Fusion Engine v2.3 - 终极融合推理引擎
 
 """
 终极融合推理引擎 v2.1
@@ -36,6 +36,7 @@ class TaskType(Enum):
     COUNTERFACTUAL = "counterfactual"
     META_REASONING = "meta_reasoning"
     TRAFFIC = "traffic"
+    COMMUNICATION = "communication"
     KNOWLEDGE = "knowledge"
 
 
@@ -96,10 +97,11 @@ class UltimateFusionEngine:
             # 知识广度引擎
             self._init_knowledge_engines()
             self._init_traffic_engines()
+            self._init_communication_engines()
             
             self.initialized = True
-            print("\n🦞 Ultimate Fusion Engine v2.2 初始化完成")
-            print("融合8个推理引擎 + 知识广度:")
+            print("\n🦞 Ultimate Fusion Engine v2.3 初始化完成")
+            print("融合10个引擎（推理+知识+交通+沟通）:")
             print("  ├── Logic Engine (100%)")
             print("  ├── RuleTaker (100%)")
             print("  ├── Reasoning Engine (68.8%)")
@@ -153,6 +155,18 @@ class UltimateFusionEngine:
             print(f"⚠️ 交通引擎加载失败: {e}")
             self.traffic_manager = TrafficManagerBuiltin()
             print("✅ TrafficManager 已加载 (内置版)")
+    
+    def _init_communication_engines(self):
+        """初始化沟通引擎"""
+        try:
+            sys.path.insert(0, '/home/admin/.openclaw/workspace/skills/communication')
+            from communication import CommunicationManager
+            self.communication_manager = CommunicationManager()
+            print("✅ CommunicationManager 已加载 (沟通能力)")
+        except Exception as e:
+            print(f"⚠️ 沟通引擎加载失败: {e}")
+            self.communication_manager = CommunicationManagerBuiltin()
+            print("✅ CommunicationManager 已加载 (内置版)")
 
     async def analyze(self, task: str) -> AnalysisResult:
         """综合分析任务"""
@@ -165,7 +179,11 @@ class UltimateFusionEngine:
         if task_type == TaskType.TRAFFIC:
             return await self._traffic_analyze(task, task_type, start_time)
         
-        # 3. 知识广度优先
+        # 3. 沟通优先
+        if task_type == TaskType.COMMUNICATION:
+            return await self._communication_analyze(task, task_type, start_time)
+        
+        # 4. 知识广度优先
         if task_type == TaskType.KNOWLEDGE:
             return await self._knowledge_analyze(task, task_type, start_time)
         
@@ -197,6 +215,21 @@ class UltimateFusionEngine:
             result=f"交通查询结果: {traffic}",
             confidence=0.85,
             engine_used="traffic_manager",
+            task_type=task_type,
+            processing_time=time.time() - start_time
+        )
+
+    async def _communication_analyze(self, task: str, task_type: TaskType, start_time: float) -> AnalysisResult:
+        """沟通分析"""
+        result = self.communication_manager.enhance_communication(
+            task,
+            "有效沟通"
+        )
+        
+        return AnalysisResult(
+            result=f"沟通优化: {result['improved']}",
+            confidence=0.85,
+            engine_used="communication_manager",
             task_type=task_type,
             processing_time=time.time() - start_time
         )
@@ -388,6 +421,10 @@ class UltimateFusionEngine:
         # 交通
         if any(kw in task_lower for kw in ["路况", "堵车", "出行", "路线", "导航", "交通", "地铁", "公交"]):
             return TaskType.TRAFFIC
+        
+        # 沟通
+        if any(kw in task_lower for kw in ["谈判", "说服", "沟通", "冲突", "表达", "交流"]):
+            return TaskType.COMMUNICATION
         
         # 逻辑
         if any(kw in task_lower for kw in ["如果", "所有", "有些"]):
@@ -645,6 +682,21 @@ class TrafficManagerBuiltin:
     
     def get_stats(self):
         return {"supported_cities": 10}
+
+
+class CommunicationManagerBuiltin:
+    """沟通管理器内置版"""
+    
+    def __init__(self):
+        print("CommunicationManagerBuiltin initialized")
+    
+    def enhance_communication(self, message: str, goal: str) -> Dict:
+        return {
+            "original": message,
+            "improved": f"优化后的表达: {message}",
+            "suggestions": ["简化", "增加逻辑"]
+        }
+
 # 测试
 if __name__ == "__main__":
     async def test():
@@ -659,7 +711,7 @@ if __name__ == "__main__":
             ("三段论", "所有A是B，所有B是C。那么A是C吗？"),
         ]
         
-        print("\n🦞 Ultimate Fusion Engine v2.2 测试\n")
+        print("\n🦞 Ultimate Fusion Engine v2.3 测试\n")
         
         for name, task in tests:
             result = await engine.analyze(task)
